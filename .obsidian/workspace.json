@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "44988db4ad263e2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c79cadc660419852",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "554f928b922917ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hotkeys/Hotkeys.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94895158330e582a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Hotkeys/Hotkeys.canvas",
+                "viewState": {
+                  "x": 690,
+                  "y": 1209.3684228450247,
+                  "zoom": -1.90953276761088
+                }
+              }
+            }
+          },
+          {
+            "id": "5feeae348d56caad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hotkeys/Functional Thinking/Functional Thinking.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c116ebaae66954ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hotkeys/Functional Thinking/N-grams.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7393682f516a404f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8756250c48dd437",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c9c419cdbd4a79c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:(), section:(), file:",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a2d133ce7cad1d9d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "75c8a553f716561e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c45129cb82ce8962",
+        "type": "tabs",
+        "dimension": 43.25581395348837,
+        "children": [
+          {
+            "id": "576bccf4e8b5ecdd",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "ea903f323150aaa9",
+        "type": "tabs",
+        "dimension": 56.74418604651162,
+        "children": [
+          {
+            "id": "5a6ef5954eaaab89",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
+            }
+          },
+          {
+            "id": "c693a4e47e7e6c89",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hotkeys/Hotkeys.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "908ae22d679a25f3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hotkeys/Hotkeys.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "1d94108e798d66b6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hotkeys/Hotkeys.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 341.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
+      "zk-prefixer:Create new unique note": false,
+      "surfing:surfing-bookmark-manager": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "meld-encrypt:Encrypt/Decrypt": false,
+      "obsidian-wordy:Wordy view": false,
+      "homepage:Open homepage": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian42-brat:BRAT": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "omnisearch:Omnisearch": false,
+      "map-of-content:Update Map of Content": false
+    }
+  },
+  "active": "554f928b922917ec",
+  "lastOpenFiles": [
+    "09-20-2024-21-09-46.md",
+    "Hotkeys/Functional Thinking/N-grams.md",
+    "Hotkeys/Functional Thinking/Functional Thinking.md",
+    "Hotkeys/Hotkeys.md",
+    "Hotkeys/Hotkeys.canvas",
+    "test one/tets two/tets two.canvas",
+    "test one/tets two",
+    "test one/test one.canvas",
+    "test one/tets two/Screenshot_9.png",
+    "test one/test one",
+    "test one",
+    "Screenshot_9.png",
+    "test one/test two/test two.canvas",
+    "test one/test one/EljLszUUcAQUR6M.jpg",
+    "test one/test one/EljJKpNUYAAEHfO.jpg",
+    "test one/test one/EUIe1OjU4AMas46.jpg",
+    "test one/test one/ETnUzEwU8AAOtwl.jpg",
+    "test one/test one/EmZ_Xo_U4AA2Mei.jpg",
+    "test one/test one/EmvUMjTXMAIoUIA.jpg",
+    "test one/test one/EmU2ux8XIAAFx8n.jpg",
+    "test one/test one/EmiAv-KXYAAQIYP.jpg",
+    "test one/test two/test two",
+    "test one/test two",
+    "rtyuio/rtyuio.md",
+    "rtyuio/rtyuio",
+    "rtyuio",
+    "afsdghmj/09-08-2024-23-09-90",
+    "afsdghmj",
+    "vile/vile.md",
+    "vile/vile",
+    "09-08-2024-02-09-55/09-08-2024-02-09-55.md",
+    "09-08-2024-01-09-33/09-08-2024-01-09-33.md",
+    "09-08-2024-01-09-07/09-08-2024-01-09-07.md",
+    "09-08-2024-01-09-55/09-08-2024-01-09-55.md",
+    "09-08-2024-01-09-69/09-08-2024-01-09-69.md",
+    "jeeeeeeeeeeeeeesus/jeeeeeeeeeeeeeesus.md",
+    "09-08-2024-01-09-62/09-08-2024-01-09-62.md",
+    "09-08-2024-01-09-45/09-08-2024-01-09-45.md",
+    "09-08-2024-01-09-67/09-08-2024-01-09-67.md",
+    "43 chars/43 chars.md",
+    "09-08-2024-01-09-09/09-08-2024-01-09-09.md",
+    "09-08-2024-01-09-83/09-08-2024-01-09-83.md",
+    "09-08-2024-01-09-65/09-08-2024-01-09-65.md",
+    "Untitled/09-08-2024-01-09-96.md",
+    "09-08-2024-01-09-68/09-08-2024-01-09-68.md",
+    "09-08-2024-01-09-20/09-08-2024-01-09-20.md",
+    "Untitled/Untitled.md",
+    "09-08-2024-01-09-36/09-08-2024-01-09-36.md",
+    "09-08-2024-01-09-18/09-08-2024-01-09-18.md",
+    "09-08-2024-01-09-61/09-08-2024-01-09-61.md"
+  ]
+}

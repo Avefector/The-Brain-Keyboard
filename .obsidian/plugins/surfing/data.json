@@ -1,0 +1,39 @@
+{
+  "defaultSearchEngine": "google",
+  "customSearchEngine": [],
+  "hoverPopover": true,
+  "ignoreList": [
+    "notion",
+    "craft"
+  ],
+  "alwaysShowCustomSearch": true,
+  "showOtherSearchEngines": false,
+  "showSearchBarInPage": true,
+  "markdownPath": "/",
+  "customHighlightFormat": false,
+  "highlightFormat": "[{CONTENT}]({URL})",
+  "highlightInSameTab": false,
+  "openInSameTab": false,
+  "showRefreshButton": true,
+  "openInObsidianWeb": true,
+  "useCustomIcons": false,
+  "useWebview": true,
+  "useIconList": true,
+  "darkMode": false,
+  "bookmarkManager": {
+    "openBookMark": true,
+    "saveBookMark": false,
+    "sendToReadWise": false,
+    "pagination": "12",
+    "category": "ROOT\nbookmarks",
+    "defaultCategory": "bookmarks",
+    "defaultColumnList": [
+      "name",
+      "url",
+      "category",
+      "created"
+    ],
+    "defaultFilterType": "menu"
+  },
+  "treeData": []
+}
