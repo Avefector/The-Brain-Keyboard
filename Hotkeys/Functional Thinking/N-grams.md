@@ -1,19 +1,13 @@
-- Any groupings of "N" words, numbers, symbols, and punctuation in a specific, coherent order of steps (sequence). ^hdsb1
-	- [[#^irj97|^irj97]]
-- "N" represents groupings of any counting of steps you want/find: 1, 2, 3, 4, ∞... ^irj97
-	- [[#^jc4og|^jc4og]]
-- A predicate is any or many sets of verbs/nouns that ends in -s, -es, -ing, -ed or irregularly to identify any step (action) for any subject (function and form). ^jc4og
-	- [[#^w40ye|^w40ye]]
-	- [[Functional Thinking#^11kml]]
-	- [[Hotkeys#^w1u5i]]
-- [Search up](http://www.sinonimkata.com/) **Hyponyms** to specify predicates, **Hypernyms** to simplify predicates, **Synonyms** to relate predicates and **Antonyms** to change predicates. ^w40ye
-    - [[Functional Thinking#^2bkn0]]
-    - [[Hotkeys#^w1u5i]]
-- Screenshot and record any visuals, symbols, videos, and images by frame. ^muhrm
-	- [[#^1-4-g|^1-4-g]]
-- Copy-paste descriptors in definitions that use modifiers and qualifiers like nouns, names, numbers, adjectives, adverbs, and etc. within any text. ^1-4-g
-	- [[#^gu36c|^gu36c]]
+- Any capturing of any words, predicates, symbols, videos, audio and images in a specific, coherent order of steps (sequence) in any counting you want/find: 2, 3, 4, ∞.... ^hdsb1
+	- [[#^muhrm]]
+	- [[Functional Thinking#^a5hxg]]
 	- [[Hotkeys#^022xq]]
-- Record audio in a loop with any audio sampler ^gu36c
-    - [[#^jc4og|^jc4og]]
-    - [[Hotkeys#^umjo2]]
+	- [[Hotkeys#^w1u5i]]
+- A uni-gram is for capturing a screenshot and/or a recording of any word, symbol, video, audio and image by frame. ^muhrm
+	- [[#^jc4og|^jc4og]]
+	- [[Hotkeys#^022xq]]
+	- [[Functional Thinking#^6br3d]]
+- A predicate is any descriptor of many sets of verbs/nouns that ends in -s, -es, -ing, -ed or irregularly that are linked to symbols, videos, and images. ^jc4og
+	- [[#^hdsb1]]
+	- [[Hotkeys#^022xq]]
+	- [[Hotkeys#^oyt0v]]

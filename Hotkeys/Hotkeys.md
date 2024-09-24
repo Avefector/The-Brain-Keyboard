@@ -8,7 +8,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 
 Prebuilt Vault by **Ave** - **September 11th, 2024**
 
-[![[avepricots-logo-full-stamp.png|300]]](<Hotkeys.canvas>)
+[![[ave-logo-full-stamp.png|300]]](<Hotkeys.canvas>)
 
 ----
 - ## Search ^oyt0v
@@ -66,7 +66,8 @@ Prebuilt Vault by **Ave** - **September 11th, 2024**
 	- Ctrl + Click = Click on an Image in Hover Editor
 	- Ctrl + P = Open Command Palette
 		- [[Hotkeys#^an8nq]]
-		- [[Functional Thinking#^11kml]]
+		- [[Functional Thinking#^a5hxg]]
+		- [[N-grams#^hdsb1]]
 - ## Links ^an8nq
 	- []\(<>) - Link Attachments to another Note
 	- -- - Autosuggest New Date
@@ -87,12 +88,12 @@ Prebuilt Vault by **Ave** - **September 11th, 2024**
 		- [[#^w1u5i]]
 - ## Folder Notes ^w1u5i
 	- Shift + Tab - Move Current Note to Folder Note (Note Folder Autorename: Make this note a folder name)
+	- Ctrl + Q / Ctrl + Alt + Q - Quickly Move Note to Folder (File Chucker: Move to new or existing folder)
 	- Ctrl + Alt + M - Rename all other files linked in current Note (File Cooker: Rename in current file links)
 	- Ctrl + J - Move Files to Folder Note by Links (File Cooker: Move Links in Current File to...)
 	- Ctrl + Alt + N - Rename Files in Searchresults (File Cooker: Rename Files in Searchresults)
 	- Alt + Click Note in Files - Edit One Selected File
 	- Shift + Click Note in Files - Edit A Row of Selected Files
-	- Ctrl + Q / Ctrl + Alt + Q - Quickly Move Note to Folder (File Chucker: Move to new or existing folder)
 	- Ctrl + Alt + Shift + Q - Quickly Move Notes to Folder by Search (File Cooker: Move files in searchresults to ...)
 	- Ctrl + Shift + A - Set Current Note as Main Folder Note (Map of Content: Set current Note as Central Note)
 	- Alt + Shift + A - Update Main Folder Note (Map of Content: Update Map of Content)
