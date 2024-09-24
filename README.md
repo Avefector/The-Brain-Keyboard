@@ -2,7 +2,7 @@
 
 ## My versatile PKM [Obsidian](https://obsidian.md/) system for achieving anything to everything!
 
-![ave-obsidian-vault-final-update-sept-11-2024](https://github.com/user-attachments/assets/461c4fcf-7fcb-48d2-9e54-942b49fae5b8)
+![ShareX_ddOB5OIfmQ](https://github.com/user-attachments/assets/e1ccc6d0-b992-40b3-bf2c-ac404421382b)
 
 ### Video Showcase here: 
 - https://www.youtube.com/watch?v=y1dbwSbXggg
