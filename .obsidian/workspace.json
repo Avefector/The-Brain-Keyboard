@@ -4,55 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c79cadc660419852",
+        "id": "2d55fc4a9143b62a",
         "type": "tabs",
         "children": [
           {
-            "id": "554f928b922917ec",
+            "id": "6be7a49545b0d959",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Hotkeys/Hotkeys.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94895158330e582a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Hotkeys/Hotkeys.canvas",
-                "viewState": {
-                  "x": 690,
-                  "y": 1209.3684228450247,
-                  "zoom": -1.90953276761088
-                }
-              }
-            }
-          },
-          {
-            "id": "5feeae348d56caad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hotkeys/Functional Thinking/Functional Thinking.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c116ebaae66954ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hotkeys/Functional Thinking/N-grams.md",
                 "mode": "preview",
                 "source": false
               }
@@ -77,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(), section:(), file:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 301.0086555480957
   },
   "right": {
     "id": "75c8a553f716561e",
@@ -178,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 374
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,54 +168,60 @@
   },
   "active": "a2d133ce7cad1d9d",
   "lastOpenFiles": [
-    "Hotkeys/Hotkeys.canvas",
-    "Hotkeys/Functional Thinking/Functional Thinking.md",
-    "Hotkeys/Functional Thinking/N-grams.md",
     "Hotkeys/Hotkeys.md",
-    "Hotkeys/Hotkeys/ave-logo-full-stamp.png",
-    "Hotkeys/Hotkeys",
-    "09-20-2024-21-09-46.md",
-    "test one/tets two/tets two.canvas",
-    "test one/tets two",
-    "test one/test one.canvas",
-    "test one/tets two/Screenshot_9.png",
-    "test one/test one",
-    "test one",
-    "Screenshot_9.png",
-    "test one/test two/test two.canvas",
-    "test one/test one/EljLszUUcAQUR6M.jpg",
-    "test one/test one/EljJKpNUYAAEHfO.jpg",
-    "test one/test one/EUIe1OjU4AMas46.jpg",
-    "test one/test one/ETnUzEwU8AAOtwl.jpg",
-    "test one/test one/EmZ_Xo_U4AA2Mei.jpg",
-    "test one/test one/EmvUMjTXMAIoUIA.jpg",
-    "test one/test one/EmU2ux8XIAAFx8n.jpg",
-    "test one/test two/test two",
-    "test one/test two",
-    "rtyuio/rtyuio.md",
-    "rtyuio/rtyuio",
-    "rtyuio",
-    "afsdghmj/09-08-2024-23-09-90",
-    "afsdghmj",
-    "vile/vile.md",
-    "09-08-2024-02-09-55/09-08-2024-02-09-55.md",
-    "09-08-2024-01-09-33/09-08-2024-01-09-33.md",
-    "09-08-2024-01-09-07/09-08-2024-01-09-07.md",
-    "09-08-2024-01-09-55/09-08-2024-01-09-55.md",
-    "09-08-2024-01-09-69/09-08-2024-01-09-69.md",
-    "jeeeeeeeeeeeeeesus/jeeeeeeeeeeeeeesus.md",
-    "09-08-2024-01-09-62/09-08-2024-01-09-62.md",
-    "09-08-2024-01-09-45/09-08-2024-01-09-45.md",
-    "09-08-2024-01-09-67/09-08-2024-01-09-67.md",
-    "43 chars/43 chars.md",
-    "09-08-2024-01-09-09/09-08-2024-01-09-09.md",
-    "09-08-2024-01-09-83/09-08-2024-01-09-83.md",
-    "09-08-2024-01-09-65/09-08-2024-01-09-65.md",
-    "Untitled/09-08-2024-01-09-96.md",
-    "09-08-2024-01-09-68/09-08-2024-01-09-68.md",
-    "09-08-2024-01-09-20/09-08-2024-01-09-20.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Roadmap/Portfolio.canvas",
+    "Roadmap/Roadmap.canvas",
+    "neww.md",
+    "sound design.canvas",
+    "mcmaster-test.canvas",
+    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/0.md",
+    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/4.md",
+    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/3.md",
+    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/2.md",
+    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/1.md",
+    "09-25-2024-01-09-56/09-25-2024-01-09-56.md",
+    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated",
+    "09-25-2024-01-09-56",
+    "09-25-2024-01-09-56-cardify-generated/4.md",
+    "09-25-2024-01-09-56-cardify-generated/3.md",
+    "09-25-2024-01-09-56-cardify-generated/2.md",
+    "09-25-2024-01-09-56-cardify-generated/1.md",
+    "09-25-2024-01-09-56-cardify-generated/0.md",
+    "09-25-2024-01-09-56-cardify-generated",
+    "Journal Entries 2024/September 2024.md",
+    "Journal Entries 2024/Wednesday, May 22nd, 2024, 0420 AM.md",
+    "Roadmap",
+    "09-25-2024-00-09-66.md",
+    "Hotkeys/Functional Thinking/Functional Thinking.md",
+    "sync.ffs_db.8f6e.ffs_tmp",
+    "sync.ffs_lock",
+    "Journal Entries 2024/Journal Entries 2024/xAHxFTORk4.mp4",
+    "sync.ffs_db.cc5c.ffs_tmp",
+    "Tray/20240924221152.aac",
+    "Tray/20240924221152-d360.ffs_tmp",
+    "RecycleBin~c05a.ffs_tmp/Journal Entries 2024/September 2024.md",
+    "RecycleBin~b6b8.ffs_tmp/Journal Entries 2024/September 2024.md",
+    "Hotkeys/Functional Thinking/N-grams.md",
+    "My Real Name, My Two Souls in Me, My True Self/Avefector.md",
     "Untitled/Untitled.md",
-    "09-08-2024-01-09-36/09-08-2024-01-09-36.md",
-    "09-08-2024-01-09-18/09-08-2024-01-09-18.md"
+    "Master Password/Master Password.md",
+    "test 1.canvas",
+    "test 2.canvas",
+    "VST Instruments I need/VST Instruments I need.md",
+    "VST Instruments I need/Kontakt Libraries to Download.md",
+    "Hotkeys/Hotkeys.canvas",
+    "RecycleBin~4a27.ffs_tmp/just-the-unjust-9.png",
+    "RecycleBin~4a27.ffs_tmp/just-the-unjust-6.png",
+    "RecycleBin~4a27.ffs_tmp/july-2023-9.png",
+    "RecycleBin~4a27.ffs_tmp/july-2023-5.png",
+    "RecycleBin~4a27.ffs_tmp/july-2023-7.png",
+    "RecycleBin~4a27.ffs_tmp/july-2023-3.png",
+    "RecycleBin~4a27.ffs_tmp/july-2023-17.png",
+    "RecycleBin~4a27.ffs_tmp/January-March 2023-1.png",
+    "RecycleBin~4a27.ffs_tmp/july-2023-10.png",
+    "RecycleBin~4a27.ffs_tmp/july-2023-12.png",
+    "the third step/the third step.canvas"
   ]
 }

@@ -2,7 +2,15 @@
   "statusBarOrder": [],
   "ribbonBarOrder": [],
   "fileExplorerOrder": {},
-  "actionBarOrder": {},
+  "actionBarOrder": {
+    "meld-encrypted-file-content-view": [
+      "6102289534156802637225511",
+      "7173106485428224756535700",
+      "7640188473835520705632805",
+      "2425728809304064802488346",
+      "83050537062236163933413645"
+    ]
+  },
   "autoHide": false,
   "autoHideDelay": 2000,
   "dragDelay": 200,
