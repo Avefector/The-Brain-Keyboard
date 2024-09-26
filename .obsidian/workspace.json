@@ -14,7 +14,46 @@
               "type": "markdown",
               "state": {
                 "file": "Hotkeys/Hotkeys.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf5a081f17ef0f31",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Hotkeys/Hotkeys.canvas",
+                "viewState": {
+                  "x": 690,
+                  "y": 1194.2339381003194,
+                  "zoom": -1.4701694303399517
+                }
+              }
+            }
+          },
+          {
+            "id": "371ed9603f01d9c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hotkeys/Functional Thinking/Functional Thinking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de7e917a7b526a22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hotkeys/Functional Thinking/N-grams.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -159,15 +198,18 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
+      "map-of-content:Update Map of Content": false,
       "obsidian42-brat:BRAT": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "omnisearch:Omnisearch": false,
-      "map-of-content:Update Map of Content": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "a2d133ce7cad1d9d",
+  "active": "6be7a49545b0d959",
   "lastOpenFiles": [
+    "Hotkeys/Functional Thinking/N-grams.md",
+    "Hotkeys/Functional Thinking/Functional Thinking.md",
+    "Hotkeys/Hotkeys.canvas",
     "Hotkeys/Hotkeys.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
@@ -194,7 +236,6 @@
     "Journal Entries 2024/Wednesday, May 22nd, 2024, 0420 AM.md",
     "Roadmap",
     "09-25-2024-00-09-66.md",
-    "Hotkeys/Functional Thinking/Functional Thinking.md",
     "sync.ffs_db.8f6e.ffs_tmp",
     "sync.ffs_lock",
     "Journal Entries 2024/Journal Entries 2024/xAHxFTORk4.mp4",
@@ -203,7 +244,6 @@
     "Tray/20240924221152-d360.ffs_tmp",
     "RecycleBin~c05a.ffs_tmp/Journal Entries 2024/September 2024.md",
     "RecycleBin~b6b8.ffs_tmp/Journal Entries 2024/September 2024.md",
-    "Hotkeys/Functional Thinking/N-grams.md",
     "My Real Name, My Two Souls in Me, My True Self/Avefector.md",
     "Untitled/Untitled.md",
     "Master Password/Master Password.md",
@@ -211,7 +251,6 @@
     "test 2.canvas",
     "VST Instruments I need/VST Instruments I need.md",
     "VST Instruments I need/Kontakt Libraries to Download.md",
-    "Hotkeys/Hotkeys.canvas",
     "RecycleBin~4a27.ffs_tmp/just-the-unjust-9.png",
     "RecycleBin~4a27.ffs_tmp/just-the-unjust-6.png",
     "RecycleBin~4a27.ffs_tmp/july-2023-9.png",

@@ -6,7 +6,7 @@ The [[Functional Thinking]] framework and [[N-grams]] are your guiding principle
 
 Once you're ready, follow the steps below and start making note(s) of anything in this vault!
 
-Prebuilt Vault by **Ave** - **September 11th, 2024**
+Prebuilt Vault by **Ave** - **September 25th, 2024**
 
 [![[ave-logo-full-stamp.png|300]]](<Hotkeys.canvas>)
 
