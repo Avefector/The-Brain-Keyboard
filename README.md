@@ -1,6 +1,6 @@
-# The Multipotentialite Kit
+# The Brain's Keyboard
 
-## My versatile PKM [Obsidian](https://obsidian.md/) system for achieving anything to everything!
+## The ultimate [Obsidian](https://obsidian.md/) PKM system built for Multipotentialites!
 
 ![ave-obsidian-complete-sept-25-2024](https://github.com/user-attachments/assets/10ea1c50-8c14-4a24-bc4b-919851777c6b)
 
