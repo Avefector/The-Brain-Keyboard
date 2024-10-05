@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "44988db4ad263e2e",
+    "id": "ca9353b28dd4b60a",
     "type": "split",
     "children": [
       {
-        "id": "2d55fc4a9143b62a",
+        "id": "6682854354038718",
         "type": "tabs",
         "children": [
           {
-            "id": "6be7a49545b0d959",
+            "id": "9646f73af7e883dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "bf5a081f17ef0f31",
+            "id": "e64cfc2158d679e7",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -28,14 +28,14 @@
                 "file": "Hotkeys/Hotkeys.canvas",
                 "viewState": {
                   "x": 690,
-                  "y": 1194.2339381003194,
-                  "zoom": -1.4701694303399517
+                  "y": 1226.8548312881621,
+                  "zoom": -1.7310498706917863
                 }
               }
             }
           },
           {
-            "id": "371ed9603f01d9c1",
+            "id": "5fb3e8a29e8d57e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "de7e917a7b526a22",
+            "id": "aba5bd92c07bb1a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,15 +64,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7393682f516a404f",
+    "id": "1ebae25cc0237518",
     "type": "split",
     "children": [
       {
-        "id": "e8756250c48dd437",
+        "id": "22b8943531892c2f",
         "type": "tabs",
         "children": [
           {
-            "id": "5c9c419cdbd4a79c",
+            "id": "3a15a4909eb5d885",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6e7ef11076437bbe",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -87,48 +97,34 @@
             }
           },
           {
-            "id": "a2d133ce7cad1d9d",
+            "id": "2a39137ed5ed643c",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "markdown",
               "state": {
-                "sortOrder": "alphabetical"
+                "file": "Hotkeys/Hotkeys.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 301.0086555480957
+    "width": 300
   },
   "right": {
-    "id": "75c8a553f716561e",
+    "id": "928828d8e1fbdcae",
     "type": "split",
     "children": [
       {
-        "id": "c45129cb82ce8962",
+        "id": "170be7010bdaa992",
         "type": "tabs",
-        "dimension": 43.25581395348837,
+        "dimension": 46.627906976744185,
         "children": [
           {
-            "id": "576bccf4e8b5ecdd",
-            "type": "leaf",
-            "state": {
-              "type": "map-of-content",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "ea903f323150aaa9",
-        "type": "tabs",
-        "dimension": 56.74418604651162,
-        "children": [
-          {
-            "id": "5a6ef5954eaaab89",
+            "id": "b9b716556fa1e2c5",
             "type": "leaf",
             "state": {
               "type": "Strange New Worlds",
@@ -136,7 +132,7 @@
             }
           },
           {
-            "id": "c693a4e47e7e6c89",
+            "id": "e2c8f008394ce988",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -153,114 +149,76 @@
             }
           },
           {
-            "id": "908ae22d679a25f3",
+            "id": "cf11b36feb4dbe72",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
                 "file": "Hotkeys/Hotkeys.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "99c351cf80722fbe",
+        "type": "tabs",
+        "dimension": 53.372093023255815,
+        "children": [
           {
-            "id": "1d94108e798d66b6",
+            "id": "ac1f7c362e663277",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Hotkeys/Hotkeys.md"
-              }
+              "type": "map-of-content",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 374
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "surfing:surfing-bookmark-manager": false,
+      "command-palette:Open command palette": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "daily-notes:Open today's daily note": false,
-      "zk-prefixer:Create new unique note": false,
-      "surfing:surfing-bookmark-manager": false,
-      "meld-encrypt:New encrypted note": false,
-      "meld-encrypt:Convert to or from an Encrypted note": false,
-      "meld-encrypt:Encrypt/Decrypt": false,
-      "obsidian-wordy:Wordy view": false,
-      "homepage:Open homepage": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
+      "obsidian42-brat:BRAT": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-wordy:Wordy view": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "map-of-content:Update Map of Content": false,
-      "obsidian42-brat:BRAT": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "omnisearch:Omnisearch": false
+      "map-of-content:Update Map of Content": false
     }
   },
-  "active": "6be7a49545b0d959",
+  "active": "9646f73af7e883dd",
   "lastOpenFiles": [
-    "Hotkeys/Functional Thinking/N-grams.md",
-    "Hotkeys/Functional Thinking/Functional Thinking.md",
+    "Hotkeys/2023_Obsidian_logo_optimized.png",
+    "Hotkeys/2023_Obsidian_logo_optimized.png.crdownload",
     "Hotkeys/Hotkeys.canvas",
     "Hotkeys/Hotkeys.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Roadmap/Portfolio.canvas",
-    "Roadmap/Roadmap.canvas",
-    "neww.md",
-    "sound design.canvas",
-    "mcmaster-test.canvas",
-    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/0.md",
-    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/4.md",
-    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/3.md",
-    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/2.md",
-    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated/1.md",
-    "09-25-2024-01-09-56/09-25-2024-01-09-56.md",
-    "09-25-2024-01-09-56/09-25-2024-01-09-56-cardify-generated",
-    "09-25-2024-01-09-56",
-    "09-25-2024-01-09-56-cardify-generated/4.md",
-    "09-25-2024-01-09-56-cardify-generated/3.md",
-    "09-25-2024-01-09-56-cardify-generated/2.md",
-    "09-25-2024-01-09-56-cardify-generated/1.md",
-    "09-25-2024-01-09-56-cardify-generated/0.md",
-    "09-25-2024-01-09-56-cardify-generated",
-    "Journal Entries 2024/September 2024.md",
-    "Journal Entries 2024/Wednesday, May 22nd, 2024, 0420 AM.md",
-    "Roadmap",
-    "09-25-2024-00-09-66.md",
-    "sync.ffs_db.8f6e.ffs_tmp",
-    "sync.ffs_lock",
-    "Journal Entries 2024/Journal Entries 2024/xAHxFTORk4.mp4",
-    "sync.ffs_db.cc5c.ffs_tmp",
-    "Tray/20240924221152.aac",
-    "Tray/20240924221152-d360.ffs_tmp",
-    "RecycleBin~c05a.ffs_tmp/Journal Entries 2024/September 2024.md",
-    "RecycleBin~b6b8.ffs_tmp/Journal Entries 2024/September 2024.md",
-    "My Real Name, My Two Souls in Me, My True Self/Avefector.md",
-    "Untitled/Untitled.md",
-    "Master Password/Master Password.md",
-    "test 1.canvas",
-    "test 2.canvas",
-    "VST Instruments I need/VST Instruments I need.md",
-    "VST Instruments I need/Kontakt Libraries to Download.md",
-    "RecycleBin~4a27.ffs_tmp/just-the-unjust-9.png",
-    "RecycleBin~4a27.ffs_tmp/just-the-unjust-6.png",
-    "RecycleBin~4a27.ffs_tmp/july-2023-9.png",
-    "RecycleBin~4a27.ffs_tmp/july-2023-5.png",
-    "RecycleBin~4a27.ffs_tmp/july-2023-7.png",
-    "RecycleBin~4a27.ffs_tmp/july-2023-3.png",
-    "RecycleBin~4a27.ffs_tmp/july-2023-17.png",
-    "RecycleBin~4a27.ffs_tmp/January-March 2023-1.png",
-    "RecycleBin~4a27.ffs_tmp/july-2023-10.png",
-    "RecycleBin~4a27.ffs_tmp/july-2023-12.png",
-    "the third step/the third step.canvas"
+    "2024-10-05.md",
+    "Hotkeys/Functional Thinking/Functional Thinking.md",
+    "Hotkeys/Functional Thinking/N-grams.md",
+    "2024-10-05 4.md",
+    "2024-10-05 5.md",
+    "2024-10-05 3.md",
+    "2024-10-05 2.md",
+    "2024-10-05 1.md",
+    "Hotkeys/2024-ave.png",
+    "u/are a/cunt.md",
+    "u/are a",
+    "u",
+    "My code file.html",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Hotkeys.md",
+    "who.md",
+    "what.md"
   ]
 }

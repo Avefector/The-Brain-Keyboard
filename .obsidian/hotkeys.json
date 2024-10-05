@@ -1,118 +1,130 @@
 {
-  "editor:toggle-checklist-status": [],
-  "workspace:close-window": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
-  "audio-recorder:start": [],
-  "audio-recorder:stop": [],
-  "file-explorer:new-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
-  "editor:save-file": [],
-  "markdown:toggle-preview": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "R"
-    }
-  ],
-  "canvas:export-as-image": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "I"
-    }
-  ],
-  "obsidian-excalidraw-plugin:insert-link-to-element": [],
-  "obsidian-excalidraw-plugin:save": [],
-  "obsidian-excalidraw-plugin:toggle-lock": [],
-  "make-md:mk-blink": [],
-  "make-md:mk-toggle-bold": [],
-  "make-md:mk-toggle-italics": [],
-  "media-extended:open-media-link": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
-  "ytranscript:fetch-transcript": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Y"
-    }
-  ],
-  "file-explorer:new-file-in-new-pane": [],
-  "make-md:mk-open-flow": [],
-  "obsidian-timestamper:obsidian-fast-datestamp": [
+  "simple-canvasearch:open-canvasearch-modal": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "T"
+      "key": "S"
     }
   ],
-  "obsidian-timestamper:obsidian-fast-timestamp": [],
-  "obsidian-stille:toggleStille": [],
-  "note-refactor-obsidian:app:extract-selection-first-line": [
+  "obsidian-another-quick-switcher:folder": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ],
+  "omnisearch:show-modal-infile": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "Tab"
+      "key": "O"
     }
   ],
-  "obsidian-carry-forward:carry-line-forward-link-only": [
+  "omnisearch:show-modal": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
-      "key": "L"
+      "key": "O"
     }
   ],
-  "obsidian-rich-links:create-rich-links": [
+  "obsidian-another-quick-switcher:search-command_landmark-search": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "L"
+      "key": "A"
     }
   ],
-  "find-and-replace-in-selection:find-and-replace-in-selection": [
+  "canvas:new-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "advanced-canvas:create-text-node": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "canvas-explorer:ajouter-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "link-exploder:link-exploder-canvas-builder": [
     {
       "modifiers": [
         "Alt",
         "Mod"
       ],
+      "key": "C"
+    }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
       "key": "B"
     }
   ],
-  "editor:toggle-bold": [],
-  "editor:cycle-list-checklist": [
+  "obsidian-related-notes-finder:show-possible-links": [
     {
       "modifiers": [
-        "Mod"
+        "Alt",
+        "Shift"
       ],
-      "key": "B"
+      "key": "L"
+    }
+  ],
+  "obsidian-outliner:fold": [],
+  "obsidian-outliner:move-list-item-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-outliner:move-list-item-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-outliner:system-info": [],
+  "obsidian-outliner:unfold": [],
+  "obsidian-outliner:indent-list": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "]"
+    }
+  ],
+  "obsidian-outliner:outdent-list": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "["
     }
   ],
   "editor:swap-line-down": [
@@ -123,110 +135,28 @@
       "key": "ArrowDown"
     }
   ],
-  "global-search:open": [
+  "editor:swap-line-up": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "S"
+      "key": "ArrowUp"
     }
   ],
-  "obsidian-carry-forward:carry-line-forward-separate-lines": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
-  "obsidian-file-link:add-file-link": [
+  "app:go-back": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "E"
+      "key": "ArrowLeft"
     }
   ],
-  "obsidian-file-path-to-uri:paste-file-path-as-file-uri": [],
-  "obsidian-file-path-to-uri:toggle-file-path-to-uri": [],
-  "quick-explorer:browse-current": [
+  "app:go-forward": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "E"
-    }
-  ],
-  "quick-explorer:go-prev": [],
-  "quick-explorer:browse-vault": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
-  "editor:toggle-bullet-list": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "B"
-    }
-  ],
-  "workspace:new-tab": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Q"
-    }
-  ],
-  "obsidian-hover-editor:convert-active-pane-to-popover": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "C"
-    }
-  ],
-  "cm-typewriter-scroll-obsidian:toggle-typewriter-sroll-zen": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Z"
-    }
-  ],
-  "note-refactor-obsidian:app:extract-selection-content-only": [],
-  "meld-encrypt:meld-encrypt-create-new-note": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "W"
-    }
-  ],
-  "meld-encrypt:meld-encrypt-in-place": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "K"
-    }
-  ],
-  "obsidian-file-path-to-uri:paste-file-path-as-file-uri-link-name-only": [],
-  "obsidian-expand-bullet:transform-bullet-into-note": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
+      "key": "ArrowRight"
     }
   ],
   "workspace:next-tab": [
@@ -245,45 +175,37 @@
       "key": "ArrowLeft"
     }
   ],
-  "app:go-forward": [
+  "note-refactor-obsidian:app:extract-selection-content-only": [],
+  "note-refactor-obsidian:app:extract-selection-first-line": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "ArrowRight"
+      "key": "Tab"
     }
   ],
-  "app:go-back": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
-  "highlightr-plugin:unhighlight": [
+  "note-composer:merge-file": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "H"
+      "key": "M"
     }
   ],
-  "highlightr-plugin:highlighter-plugin-menu": [
+  "markdown:toggle-preview": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "H"
+      "key": "R"
     }
   ],
-  "editor:open-search-replace": [],
-  "obsidian-wordnet-plugin:open-wordnet-suggestor": [
+  "workspace:new-tab": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "W"
+      "key": "T"
     }
   ],
   "workspace:close": [
@@ -292,265 +214,6 @@
         "Alt"
       ],
       "key": "X"
-    }
-  ],
-  "obsidian-timestamp-notes:timestamp-insert": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
-  "workspace:undo-close-pane": [],
-  "editor:swap-line-up": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "obsidian-local-images:download-images": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
-  "obsidian-timestamp-notes:trigger-player": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Y"
-    }
-  ],
-  "obsidian-statusbar-pomo:start-satusbar-pomo": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "R"
-    }
-  ],
-  "oz-clear-unused-images:clear-images-obsidian": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "E"
-    }
-  ],
-  "graph:open-local": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "G"
-    }
-  ],
-  "obsidian-excalidraw-plugin:insert-link": [],
-  "excalibrain:excalibrain-start": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
-  "excalibrain:excalibrain-open-hover": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
-  "obsidian-rewarder:create-sample-rewards-note": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "R"
-    }
-  ],
-  "obsidian-power-search:open-power-search-results-view": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "S"
-    }
-  ],
-  "links:editor-delete-link": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
-  "workspace:copy-url": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "O"
-    }
-  ],
-  "editor:insert-link": [],
-  "obsidian-paste-image-rename:batch-rename-all-images": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "I"
-    }
-  ],
-  "simple-canvasearch:open-canvasearch-modal": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
-  "link-exploder:link-exploder-canvas-builder": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "M"
-    }
-  ],
-  "paste-link:paste-link": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "K"
-    }
-  ],
-  "copy-without-links:strip-links-from-selection": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "S"
-    }
-  ],
-  "copy-without-links:strip-links-entire-file": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "S"
-    }
-  ],
-  "links:editor-embed-unembed-link": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
-  "meld-encrypt:meld-encrypt-convert-to-or-from-encrypted-note": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "K"
-    }
-  ],
-  "obsidian-outliner:unfold": [],
-  "obsidian-outliner:fold": [],
-  "obsidian-outliner:indent-list": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "]"
-    }
-  ],
-  "obsidian-outliner:outdent-list": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "["
-    }
-  ],
-  "obsidian-outliner:system-info": [],
-  "obsidian-outliner:move-list-item-down": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
-  "obsidian-outliner:move-list-item-up": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "pdf-plus:create-dummy": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "P"
-    }
-  ],
-  "obsidian-timestamp-notes:open-sample-modal-complex": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "V"
-    }
-  ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
-  "zk-prefixer": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "N"
-    }
-  ],
-  "find-unlinked-files:find-unlinked-files": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "F"
     }
   ],
   "app:delete-file": [
@@ -562,48 +225,70 @@
       "key": "X"
     }
   ],
-  "obsidian-hover-editor:dock-active-popover-to-workspace": [
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "inline-encrypter:encrypt": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ],
+  "inline-encrypter:decrypt": [
     {
       "modifiers": [
         "Alt",
-        "Mod"
-      ],
-      "key": "C"
-    }
-  ],
-  "note-composer:merge-file": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "F"
-    }
-  ],
-  "file-chucker:move-to-new-or-existing-folder": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Q"
-    }
-  ],
-  "file-explorer:reveal-active-file": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "Q"
-    }
-  ],
-  "switcher:open": [],
-  "obsidian-related-notes-finder:show-possible-links": [
-    {
-      "modifiers": [
         "Mod"
       ],
       "key": "W"
+    }
+  ],
+  "nldates-obsidian:nlp-now": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-timestamp-notes:open-sample-modal-complex": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "obsidian-timestamp-notes:trigger-player": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Y"
+    }
+  ],
+  "obsidian-timestamp-notes:timestamp-insert": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "obsidian-wordy:wordy-syn": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
     }
   ],
   "obsidian-wordy:wordy-ant": [
@@ -612,41 +297,84 @@
         "Alt",
         "Mod"
       ],
-      "key": "W"
+      "key": "K"
     }
   ],
-  "obsidian-wordy:wordy-syn": [
+  "pdf-plus:create-dummy": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-hover-editor:dock-active-popover-to-workspace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-file-cooker:Add-selection-to": [
     {
       "modifiers": [
         "Alt",
         "Shift"
       ],
-      "key": "W"
+      "key": "C"
     }
   ],
-  "obsidian-another-quick-switcher:folder": [
+  "oz-clear-unused-images:clear-unused-attachments": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "A"
+      "key": "E"
     }
   ],
-  "obsidian-another-quick-switcher:move": [],
-  "obsidian-another-quick-switcher:search-command_file-name-fuzzy-search": [],
-  "obsidian-another-quick-switcher:in-file-search": [],
-  "obsidian-another-quick-switcher:link": [],
-  "obsidian-another-quick-switcher:search-command_file-name-search": [],
-  "obsidian-another-quick-switcher:search-command_link-search": [],
-  "obsidian-another-quick-switcher:search-command_2-hop-link-search": [],
-  "obsidian-another-quick-switcher:backlink": [],
-  "obsidian-another-quick-switcher:search-command_landmark-search": [
+  "consistent-attachments-and-links:collect-attachments-current-note": [
     {
       "modifiers": [
         "Alt",
         "Mod"
       ],
-      "key": "A"
+      "key": "E"
+    }
+  ],
+  "obsidian-carry-forward:carry-line-forward-link-only": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "advanced-canvas:encapsulate-selection": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "advanced-canvas:create-file-node": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
     }
   ],
   "obsidian42-strange-new-worlds:SNW-ToggleActiveState": [
@@ -655,42 +383,51 @@
         "Mod",
         "Shift"
       ],
-      "key": "V"
+      "key": "W"
     }
   ],
-  "obsidian-another-quick-switcher:search-command_recent-search": [],
-  "obsidian-file-cooker:move-files-in-searchresults-to": [
+  "workspace:close-window": [],
+  "obsidian-file-link:add-file-link": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "links:editor-embed-unembed-link": [
     {
       "modifiers": [
         "Alt",
-        "Mod",
         "Shift"
       ],
-      "key": "Q"
+      "key": "E"
+    }
+  ],
+  "workspace:copy-url": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "U"
     }
   ],
   "obsidian-file-cooker:add-files-in-searchresults-to-canvas": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod"
       ],
-      "key": "M"
+      "key": "D"
     }
   ],
   "obsidian-file-cooker:add-links-to-canvas": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
-      "key": "J"
-    }
-  ],
-  "darlal-switcher-plus:switcher-plus:open-related-items": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "O"
+      "key": "D"
     }
   ],
   "note-folder-autorename:make-folder-note": [
@@ -701,65 +438,20 @@
       "key": "Tab"
     }
   ],
-  "omnisearch:show-modal": [
+  "file-chucker:move-to-new-or-existing-folder": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
-  "omnisearch:show-modal-infile": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "D"
-    }
-  ],
-  "file-explorer:move-file": [
-    {
-      "modifiers": [
-        "Alt",
         "Mod"
       ],
       "key": "Q"
     }
   ],
-  "canvas:new-file": [
+  "file-explorer:move-file": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt"
       ],
-      "key": "C"
-    }
-  ],
-  "obsidian-file-cooker:move-links-to": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "J"
-    }
-  ],
-  "obsidian-file-cooker:rename-files-in-searchresults": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
-  "obsidian-file-cooker:Add-selection-to": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "J"
+      "key": "Q"
     }
   ],
   "obsidian-file-cooker:rename-in-current-file-links": [
@@ -768,77 +460,86 @@
         "Alt",
         "Mod"
       ],
-      "key": "M"
+      "key": "R"
+    }
+  ],
+  "obsidian-file-cooker:move-links-to": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:save-file": [],
+  "editor:open-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-file-cooker:rename-files-in-searchresults": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "obsidian-file-cooker:move-files-in-searchresults-to": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Q"
     }
   ],
   "map-of-content:open-note-as-central-note": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "A"
-    }
-  ],
-  "map-of-content:rebuild-map-of-content": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "A"
-    }
-  ],
-  "consistent-attachments-and-links:collect-attachments-current-note": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
-  "nldates-obsidian:nlp-now": [
-    {
-      "modifiers": [
         "Alt"
       ],
-      "key": "T"
+      "key": "R"
     }
   ],
-  "advanced-canvas:encapsulate-selection": [
+  "editor:toggle-bold": [],
+  "editor:cycle-list-checklist": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
-      "key": "L"
+      "key": "B"
     }
   ],
-  "advanced-canvas:create-text-node": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "C"
-    }
-  ],
-  "advanced-canvas:create-file-node": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
-  "editor:insert-wikilink": [
+  "tray:relaunch-app": [
     {
       "modifiers": [
         "Alt",
         "Mod"
       ],
-      "key": "I"
+      "key": "O"
+    }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "map-of-content:rebuild-map-of-content": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
     }
   ]
 }

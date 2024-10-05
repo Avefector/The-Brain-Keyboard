@@ -1,6 +1,7 @@
 {
   "pluginList": [
-    "TehBrian/obsidian-bartender"
+    "TehBrian/obsidian-bartender",
+    "TehBrian/obsidian-bartender/"
   ],
   "pluginSubListFrozenVersion": [],
   "themesList": [],

@@ -1,12 +1,12 @@
 {
   "autoCollectAttachments": true,
-  "changeNoteBacklinksAlt": false,
+  "changeNoteBacklinksAlt": true,
   "consistencyReportFile": "consistency-report.md",
-  "deleteAttachmentsWithNote": false,
-  "deleteEmptyFolders": false,
-  "deleteExistFilesWhenMoveNote": false,
+  "deleteAttachmentsWithNote": true,
+  "deleteEmptyFolders": true,
+  "deleteExistFilesWhenMoveNote": true,
   "ignoreFiles": [
-    "consistant-report.md"
+    "consistency\\-report\\.md"
   ],
   "ignoreFolders": [
     ".git/",

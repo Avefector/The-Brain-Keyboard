@@ -4,8 +4,8 @@
   "runInBackground": true,
   "hideTaskbarIcon": false,
   "createTrayIcon": true,
-  "trayIconImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHZSURBVDhPlZKxTxRBFMa/XZcF7nIG7mjxjoRCwomJxgsFdhaASqzQxFDzB1AQKgstLGxIiBQGJBpiCCGx8h+wgYaGgAWNd0dyHofeEYVwt/PmOTMZV9aDIL/s5pvZvPfN9yaL/+HR3eXcypta0m4juFbP5GHuXc9IbunDFc9db/G81/ZzhDMN7g8td47mll4R5BfHwZN4LOaA+fHa259PbUmIYzWkt3e2NZNo3/V9v1vvU6kkstk+tLW3ItUVr/m+c3N8MlkwxYqmBFcbwUQQCNOcyVzDwEAWjuPi5DhAMV/tKOYPX5hCyz8Gz1zX5SmWjBvZfmTSaRBJkGAIoxJHv+pVW2yIGNxOJ8bUVNcFEWLxuG1ia6JercTbttwQTeDwPS0kCMXiXtgk/jQrFUw7ptYSMWApF40yo/ytjHq98fdk3ayVE+cn2CxMb6ruz9qAJKFUKoWza1VJSi/n0+ffgYHdWW2gHuxXymg0gjCB0sjpmiaDnkL3RzDyzLqBUKns2ztQqUR0fk2TwSrGSf1eczqF5vsPZRCQSSAFLk6gqctgQRkc6TWRQLV2YMYQki9OoNkqzFQ9r+WOGuW5CrJbOzyAlPKr6MSGLbkcDwbf35oY/jRkt6cAfgNwowruAMz9AgAAAABJRU5ErkJggg==",
-  "trayIconTooltip": "{{vault}} | Obsidian",
+  "trayIconImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAA4VBMVEVHcExzSMtpQL2wkPCheuukgO6+o/OLb9prPMl/VNS1k/hkMshnN8WeeOy3m/GYbe+rifCifOt4UsfKr/zUw/fayfx3Tcu7n/JWJq6IWuWOY+RhOLV1RdKofvtpPb2vjvCoh+6ScNmtiOy/p/KlguZWIMTXxP+MYt9hMMVZIse5k/u1lvKsi++KWut7U81/VdJbMq6dduzKtPW6m/jErPSZcOuHXdpTKalDGZmYdd2fcfvSvfusivFvRMSUZ+9zTrywif9MI59sONWki9fl2P6Sc9G3oePPsv9RKKOIX97HqP+XVIiiAAAAPnRSTlMA/v78EP79A/79/vgmXP33bkD8/v3/VKsX/rj7OP1G2rfDHPFK/iegkqn1koXf6XL//////////////////neypnkAAADNSURBVBjTRY/XeoJAEIUHWNhdymJBsCUmahK7S7ODmmJ7/wcSdI3nYi7+75yZMwC5MIwGVjafGoa63fwnGHkXxtIxEgSDd9S0TW1Vx8KCOuUo8lN7VbxZMHwGQRDFsf9iCdBdO+vI99VdQYB+zXECVVX1txxgMI2P5W8l3CiKni/B0Ps2yOHnb8lY2EJZpGoQQuaLxX7LNKWdAZNIksRPnM9L5cIt4lJKOW/ISfIurrjxjMuJVKKv9+4YrEkjobMzRY/noGo2p3X7KzdcAfxzE+KE9YKlAAAAAElFTkSuQmCC",
+  "trayIconTooltip": "{{vault}}",
   "toggleWindowFocusHotkey": "CmdOrCtrl+Shift+Tab",
   "quickNoteDateFormat": "YYYY-MM-DD",
   "quickNoteHotkey": "CmdOrCtrl+Shift+Q"
