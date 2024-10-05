@@ -54,6 +54,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + F - Search Current File
 	- Alt + X - Close Current Tab
 	- Ctrl + Alt + X = Delete Current Note (Delete current File)
+	- Alt + H - Undo Edit to Bulletpoint (Edit History: Open edit history for this file)
 	- Alt + G = Open Local Graph
 	- Alt + W - Encrypt Highlighted Bulletpoint (Inline Encrypter: Encrypt Selected Text)
 	- Ctrl + Alt + W - Decrypt Highlighted Bulletpoint (Inline Encrypter: Decrypt Selected Text)
@@ -107,6 +108,9 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- *Also helps in recursively linking canvases together (much like how the Carry-Forward plugin works).*
 	- Alt + Shift + D - Add Links from Targeted File to Canvas (File Cooker: Add links in current file to target canvas)
 		- *Attach links from many files of one file onto a canvas.*
+	- Ctrl + Shift + S - Scan Note for links (Note Linker: Scan Note)
+	- Alt + Shift + S - Scan Vault for links (Note Linker: Scan Vault)
+	- Ctrl + U - Repair links in file (Persistent Links: Repair links in file)
 		- [[#^w1u5i]]
 - ## Folder Notes ^w1u5i
 	- Shift + Tab - Move Current Note to Folder Note (Note Folder Autorename: Make this note into a folder note)

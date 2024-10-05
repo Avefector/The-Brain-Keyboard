@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9646f73af7e883dd",
+            "id": "e64cfc2158d679e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Hotkeys/Hotkeys.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "e64cfc2158d679e7",
+            "id": "6bef82203966bb8f",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -28,7 +28,7 @@
                 "file": "Hotkeys/Hotkeys.canvas",
                 "viewState": {
                   "x": 690,
-                  "y": 1226.8548312881621,
+                  "y": 1220,
                   "zoom": -1.7310498706917863
                 }
               }
@@ -183,28 +183,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "surfing:surfing-bookmark-manager": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "obsidian-wordy:Wordy view": false,
-      "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
+      "obsidian42-brat:BRAT": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-wordy:Wordy view": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "map-of-content:Update Map of Content": false,
-      "surfing:surfing-bookmark-manager": false,
-      "obsidian42-brat:BRAT": false
+      "obisidian-note-linker:Note Linker": false,
+      "edit-history:Open edit history": false
     }
   },
-  "active": "9646f73af7e883dd",
+  "active": "e64cfc2158d679e7",
   "lastOpenFiles": [
-    "Hotkeys/2023_Obsidian_logo_optimized.png",
-    "Hotkeys/2023_Obsidian_logo_optimized.png.crdownload",
     "Hotkeys/Hotkeys.canvas",
-    "Hotkeys/Hotkeys.md",
-    "2024-10-05.md",
     "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Hotkeys/Functional Thinking/N-grams.md",
+    "Hotkeys/Hotkeys.md",
+    "Hotkeys/Hotkeys.md.edtz",
+    "Hotkeys/2023_Obsidian_logo_optimized.png",
+    "Hotkeys/2023_Obsidian_logo_optimized.png.crdownload",
+    "2024-10-05.md",
     "2024-10-05 4.md",
     "2024-10-05 5.md",
     "2024-10-05 3.md",
