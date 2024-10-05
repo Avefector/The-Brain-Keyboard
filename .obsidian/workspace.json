@@ -183,17 +183,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "surfing:surfing-bookmark-manager": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "obsidian42-brat:BRAT": false,
-      "omnisearch:Omnisearch": false,
       "obsidian-wordy:Wordy view": false,
+      "omnisearch:Omnisearch": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "map-of-content:Update Map of Content": false
+      "map-of-content:Update Map of Content": false,
+      "surfing:surfing-bookmark-manager": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "9646f73af7e883dd",
