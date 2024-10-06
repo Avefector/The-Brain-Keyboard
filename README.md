@@ -29,6 +29,8 @@ My approach to learning the world around us.
 - Make Bullet Point or Checkbox (Cycle Bullet/Checkbox) + Indent or Outdent Bullet Point
 	- For adding insights & details and then allows me to hide and show links to be more specific towards any other information it can extrapolate either within or towards other notes. 
 - Move a bullet point's position
+- Note Refactor: Extract selection to new note - first line as file name
+	- Transforms Bullet Point into its own Note then replaces itself with a link in the previous note to go in-depth with this piece of insight.
 - Folder notes: Create folder note from selected text
 	- Transforms Bullet Point into its own Folder Note then replaces itself with a link in the previous (Folder) note to go in-depth with this piece of insight.
 - Toggle Bullet list
