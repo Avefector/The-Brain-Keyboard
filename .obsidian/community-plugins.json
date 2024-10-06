@@ -15,7 +15,6 @@
   "consistent-attachments-and-links",
   "obsidian-hover-editor",
   "obsidian-carry-forward",
-  "note-folder-autorename",
   "obsidian-note-autocreator",
   "obsidian-related-notes-finder",
   "obsidian42-strange-new-worlds",
@@ -27,7 +26,6 @@
   "file-chucker",
   "map-of-content",
   "obsidian-outliner",
-  "note-refactor-obsidian",
   "surfing",
   "obsidian42-brat",
   "tray",
@@ -36,5 +34,7 @@
   "obsidian-reveal-active-file",
   "auto-filename",
   "obisidian-note-linker",
-  "edit-history"
+  "edit-history",
+  "obsidian-paste-image-rename",
+  "folder-notes"
 ]

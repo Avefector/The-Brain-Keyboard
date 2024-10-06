@@ -176,14 +176,7 @@
     }
   ],
   "note-refactor-obsidian:app:extract-selection-content-only": [],
-  "note-refactor-obsidian:app:extract-selection-first-line": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Tab"
-    }
-  ],
+  "note-refactor-obsidian:app:extract-selection-first-line": [],
   "note-composer:merge-file": [
     {
       "modifiers": [
@@ -430,14 +423,6 @@
       "key": "D"
     }
   ],
-  "note-folder-autorename:make-folder-note": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "Tab"
-    }
-  ],
   "file-chucker:move-to-new-or-existing-folder": [
     {
       "modifiers": [
@@ -574,6 +559,58 @@
         "Shift"
       ],
       "key": "S"
+    }
+  ],
+  "obsidian-paste-image-rename:batch-rename-all-images": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "folder-notes:insert-folder-overview-fn": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "folder-notes:create-folder-note": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "folder-notes:delete-folder-note-for-current-folder": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "folder-notes:create-folder-note-from-selected-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
     }
   ]
 }

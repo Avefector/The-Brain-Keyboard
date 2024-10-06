@@ -46,8 +46,6 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + ↔ - Navigate a Previous or Current Page
 	- Alt + ↔ - Navigate Tabs
 	- Alt + T - Make New Tab
-	- Ctrl + Tab = Transform Bullet Point into its own Note (Note Refactor: Extract selection to new note - first line as file name)
-		- *Transforms Bullet Point into its own Note then replaces itself with a link in the previous note to go in-depth with this piece of insight.*
 	- Alt + M - Merge Notes (Note composer: Merge current file with another file)
 		- *If you need to know which file you're on lies within the vault.*
 	- Ctrl + R - Toggle Reading Mode in Note
@@ -74,6 +72,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- *Highlight anything from an .md and paste it onto a canvas file with precision.*
 	- Alt + E = Clear Unused Images
 	- Ctrl + Alt + E - Collect all attachments to Current Note (Consistent Attachments and Links: Collect Attachments in Current Note)
+	- Ctrl + Shift + E - Rename every image in Note (Paste image rename: Batch rename all images instantly (in the current file))
 	- Attach Media - Drag & Drop / Copy-Paste
 	- Ctrl + Click = Click on an Image in Hover Editor
 	- Ctrl + P = Open Command Palette
@@ -94,6 +93,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- *Adds a link to an existing and/or auto-creates new note in a link with the "/" symbol at the end.*
 	- Alt + L - Link Info from a Source (Carry-Forward: Copy Selection with each line linked to its copied source (Default Link Text))
 		- *Same function as "Copy link to line" and copy-pastes the text straight onto your idea for a project.*
+	- Ctrl + Shift + V - Paste Links from all notes within any (Folder) Note (Folder notes: Insert folder overview)
 	- Ctrl + Alt + L - Move the current selection to a new Canvas and create a link in the current Canvas (Advanced Canvas: Encapsulate selection)
 	- Ctrl + Shift + L - Create a link to any (new) Canvas in the current Canvas (Advanced Canvas: Create file node)
 	- Alt + Shift + L - Find links to other files through any Word (Related Notes Finder: Show Possible Links)
@@ -113,8 +113,11 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + U - Repair links in file (Persistent Links: Repair links in file)
 		- [[#^w1u5i]]
 - ## Folder Notes ^w1u5i
-	- Shift + Tab - Move Current Note to Folder Note (Note Folder Autorename: Make this note into a folder note)
-		- *Places note into its own folder note; which must be renamed if you want to take the note out.*
+	- Ctrl + Tab - Turn Bulletpoint into Folder Note then link to it (Folder notes: Create folder note from selected text)
+		- *Transforms Bullet Point into its own Folder Note then replaces itself with a link in the previous (Folder) note to go in-depth with this piece of insight.*
+	- Shift + Tab - Turn Note into Folder Note (Folder notes: Create folder note with a new folder for the active note in the current folder)
+		- *Places note into its own folder note.*
+	- Ctrl + Shift + X - Delete Folder Note (Folder notes: Delete folder note of current folder of active note)
 	- Ctrl + Q / Alt + Q - Quickly Move Note to Folder (File Chucker: Move to new or existing folder) + Move current file to another folder
 		- *Moves note(s) into any existing folder and/or places note(s) into its own folder note regardless of file type(s).*
 	- Ctrl + Alt + R - Rename all other files linked in current Note (File Cooker: Rename in current file links)
@@ -126,8 +129,8 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Alt + Click Note in Files - Edit One Selected File
 	- Shift + Click Note in Files - Edit A Row of Selected Files
 	- Alt + Shift + Q - Quickly Move Notes to Folder by Search (File Cooker: Move files in searchresults to ...)
-		- *Quickly move notes to a folder by searching them in the search tab.*
 	- Ctrl + Shift + R  - Update Main Folder Note (Map of Content: Update Map of Content)
+		- *Quickly move notes to a folder by searching them in the search tab.*
 		- *Hierarchically ties every note's connection to one another in a decentralized manner.*
 	- Alt + R - Set Current Note as Main Folder Note (Map of Content: Set current Note as Central Note)
 		- [[Hotkeys#^oyt0v]]

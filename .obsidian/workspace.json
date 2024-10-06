@@ -15,6 +15,7 @@
               "state": {
                 "file": "Hotkeys/Hotkeys.md",
                 "mode": "preview",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -42,6 +43,7 @@
               "state": {
                 "file": "Hotkeys/Functional Thinking/Functional Thinking.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -54,6 +56,7 @@
               "state": {
                 "file": "Hotkeys/Functional Thinking/N-grams.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -104,6 +107,7 @@
               "state": {
                 "file": "Hotkeys/Hotkeys.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -132,7 +136,19 @@
             }
           },
           {
-            "id": "e2c8f008394ce988",
+            "id": "cf11b36feb4dbe72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hotkeys/Hotkeys.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d25f189bf97ced8a",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -144,18 +160,6 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "cf11b36feb4dbe72",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Hotkeys/Hotkeys.md",
-                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -193,19 +197,32 @@
       "obsidian-wordy:Wordy view": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "map-of-content:Update Map of Content": false,
       "obisidian-note-linker:Note Linker": false,
-      "edit-history:Open edit history": false
+      "edit-history:Open edit history": false,
+      "map-of-content:Update Map of Content": false
     }
   },
   "active": "e64cfc2158d679e7",
   "lastOpenFiles": [
+    "Hotkeys/2023_Obsidian_logo_optimized.png",
     "Hotkeys/Hotkeys.canvas",
+    "Hotkeys/Hotkeys.md",
     "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Hotkeys/Functional Thinking/N-grams.md",
-    "Hotkeys/Hotkeys.md",
+    "test 1 1.md",
+    "test 1 1 1.md",
+    "test 1.md",
+    "test/test.md",
+    "tested/tested.canvas",
+    "tested",
+    "test 1.md.edtz",
+    "test",
+    "Untitled.md.edtz",
+    "test/test.md.edtz",
+    "test/the second test/the second test.md",
+    "the second test",
+    "test/the second test",
     "Hotkeys/Hotkeys.md.edtz",
-    "Hotkeys/2023_Obsidian_logo_optimized.png",
     "Hotkeys/2023_Obsidian_logo_optimized.png.crdownload",
     "2024-10-05.md",
     "2024-10-05 4.md",
@@ -216,9 +233,6 @@
     "Hotkeys/2024-ave.png",
     "u/are a/cunt.md",
     "u/are a",
-    "u",
-    "My code file.html",
-    "Untitled.md",
     "Untitled 1.md",
     "Hotkeys.md",
     "who.md",
