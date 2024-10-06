@@ -29,8 +29,8 @@ My approach to learning the world around us.
 - Make Bullet Point or Checkbox (Cycle Bullet/Checkbox) + Indent or Outdent Bullet Point
 	- For adding insights & details and then allows me to hide and show links to be more specific towards any other information it can extrapolate either within or towards other notes. 
 - Move a bullet point's position
-- Note Refactor: Extract selection to new note - first line as file name
-	- Transforms Bullet Point into its own Note then replaces itself with a link in the previous note to go in-depth with this piece of insight.
+- Folder notes: Create folder note from selected text
+	- Transforms Bullet Point into its own Folder Note then replaces itself with a link in the previous (Folder) note to go in-depth with this piece of insight.
 - Toggle Bullet list
 	- Merges your insights together by removing or adding Bullet Points in case you have too many sub-bullet points.
 - PDF++: Create dummy file
@@ -74,8 +74,8 @@ My approach to learning the world around us.
 - By right-clicking one file, many at a time with alt + left-clicking or one end to another in a row with alt + left-clicking THEN shift + left-clicking.
 - File Chucker: Move to new or existing folder
 	- Move one note (if it links to two or more notes) into any existing folder note.
-- Note Folder Autorename: Make this note into a folder note.
-	- Places note into its own folder note; which must be renamed if you want to take the note out.
+- Folder notes: Create folder note with a new folder for the active note in the current folder
+	- Places note into its own folder note.
 - Files: Reveal current file in navigation
 	- If you need to know where your file lies in the vault.
 - Note composer: merge current file with another file
