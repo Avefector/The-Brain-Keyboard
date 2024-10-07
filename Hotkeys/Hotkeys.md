@@ -1,5 +1,5 @@
 [![[2024-ave.png]]](<Hotkeys.canvas>)
-## Prebuilt Vault - October 5th, 2024
+## Prebuilt Vault - October 6th, 2024
 
 The [[Functional Thinking]] framework and [[N-grams]] are your guiding principles!
 
@@ -37,6 +37,8 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Alt + C - Add Note onto Canvas (Canvas Explorer: Ajouter Note "Add Note")
 	- Ctrl + Alt + C - Turn Note into Canvas MOC / Create Canvas From File Links (Link Exploder: Create Canvas From File Links)
 		- *Turns one note of insights into a Canvas file by mapping out its insights and placing every other note its linked to (including media files).*
+	- Ctrl + Shift + D - Transforms Bullet Point into its own note then link back to it (Note Refactor: Extract selection to new note - first line as filename)
+		- *Transforms Bullet Point into its own Note then replaces itself with a link in the previous note to go in-depth with this piece of insight.*
 	- Ctrl + Shift + B - Remove or Add Bullet Points (Toggle Bullet list)
 		- *Merges your insights together by removing or adding bullet points.*
 	- Ctrl + [ or ] - Indent or Outdent Bulletpoint
