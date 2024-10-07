@@ -2,9 +2,9 @@
   "autoCollectAttachments": true,
   "changeNoteBacklinksAlt": true,
   "consistencyReportFile": "consistency-report.md",
-  "deleteAttachmentsWithNote": true,
+  "deleteAttachmentsWithNote": false,
   "deleteEmptyFolders": true,
-  "deleteExistFilesWhenMoveNote": true,
+  "deleteExistFilesWhenMoveNote": false,
   "ignoreFiles": [
     "consistency\\-report\\.md"
   ],
