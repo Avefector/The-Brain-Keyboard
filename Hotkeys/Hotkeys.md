@@ -20,12 +20,12 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + Alt + Q - Reveal Note in Files Tab (Files: Reveal current file in navigation)
 		- *If you need to know where your file lies in the vault.*
 	- Alt + A - Find (Folder) Notes & Notes Within (Folder) Notes (Another Quick Switcher: Reveal a folder in the file tree)
-		- *Switch between one note to another by folder notes.*
+		- *Reveal any folder notes in your vault.*
 	- Ctrl + O - Search Within a File (Omnisearch: In-file Search)
 		- *Allows for precise searching within any sort of file (including images).*
 	- Alt + O - Search the Vault (Omnisearch: Vault Search)
 		- *Allows for precise searching throughout the vault.*
-	- Ctrl + Shift + A - Find Notes by Links (Another Quick Switcher: Landmark search)
+	- Ctrl + Shift + A - Find Notes by Links (Another Quick Switcher: File name fuzzy search)
 		- *Switch between one note to another by its Links.*
 		- [[Hotkeys#^022xq]]
 

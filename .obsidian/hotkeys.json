@@ -31,15 +31,7 @@
       "key": "O"
     }
   ],
-  "obsidian-another-quick-switcher:search-command_landmark-search": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "A"
-    }
-  ],
+  "obsidian-another-quick-switcher:search-command_landmark-search": [],
   "canvas:new-file": [
     {
       "modifiers": [
@@ -590,10 +582,9 @@
   "global-search:open": [
     {
       "modifiers": [
-        "Alt",
         "Mod"
       ],
-      "key": "F"
+      "key": "S"
     }
   ],
   "folder-notes:create-folder-note": [
@@ -619,6 +610,15 @@
         "Mod"
       ],
       "key": "Tab"
+    }
+  ],
+  "obsidian-another-quick-switcher:search-command_file-name-fuzzy-search": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
     }
   ]
 }
