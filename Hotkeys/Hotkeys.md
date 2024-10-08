@@ -11,6 +11,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + S = Open Search Bar
 	- Click on 🔍in Folder Tab - Search for File (Bartender)
 		- *Search any file within the folder tab.*
+			- Use *'* at the start for an exact match
 	- line:() - Search a Hotkey
 	- file:() - Search a file name
 	- Highlight Text + Ctrl + S - Search for Canvases/Files
@@ -120,7 +121,6 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Shift + Tab - Turn Note into Folder Note (Folder notes: Create folder note with a new folder for the active note in the current folder)
 		- *Places note into its own folder note.*
 	- Ctrl + Shift + X - Delete Folder Note (Folder notes: Delete folder note of current folder of active note)
-		- Right-Click Any Folder Note > Folder Note Commands > Exclude Folder from Folder Notes - Turn Folder Note back into Note
 	- Ctrl + Q / Alt + Q - Quickly Move Note to Folder (File Chucker: Move to new or existing folder) + Move current file to another folder
 		- *Moves note(s) into any existing folder and/or places note(s) into its own folder note regardless of file type(s).*
 	- Ctrl + Alt + R - Rename all other files linked in current Note (File Cooker: Rename in current file links)

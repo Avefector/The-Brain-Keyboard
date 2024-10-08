@@ -1,5 +1,4 @@
 [
-  "obsidian-bartender",
   "obsidian-another-quick-switcher",
   "omnisearch",
   "simple-canvasearch",
@@ -37,5 +36,7 @@
   "edit-history",
   "obsidian-paste-image-rename",
   "folder-notes",
-  "note-refactor-obsidian"
+  "note-refactor-obsidian",
+  "obsidian-bartender",
+  "remember-cursor-position"
 ]
