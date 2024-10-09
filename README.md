@@ -19,10 +19,10 @@ My approach to learning the world around us.
 	- Searches and redirect you to any card within a .canvas file.
 - Bartender plugin - click on the folder tab, then click the magnifying glass at the top.
 	- Search any file within the folder tab.
-- Another Quick Switcher: Landmark search
+- Another Quick Switcher: File name fuzzy search
 	- Switch between one note to another by its Links.
 - Another Quick Switcher: Reveal a folder in the file tree
-	- Switch between one note to another by folder notes.
+	- Reveal any folder notes in your vault.
 - Omnisearch: Vault Search + In-file Search
 	- Allows for precise searching within any sort of file (including images) as well as all throughout the vault.
 - ## Bullet Points
