@@ -90,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hotkeys",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,10 +205,12 @@
   "active": "5e5cb6645cf332e9",
   "lastOpenFiles": [
     "sync.ffs_lock",
+    "sync.ffs_db.6174.ffs_tmp",
+    "sync.ffs_db.0740.ffs_tmp",
     "Hotkeys/Hotkeys.canvas",
-    "Hotkeys/Hotkeys.md",
     "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Hotkeys/Functional Thinking/N-grams.md",
+    "Hotkeys/Hotkeys.md",
     "Untitled/Untitled.md",
     "Untitled",
     "Untitled/Untitled 1.md",
@@ -226,7 +228,6 @@
     "test 1.md.edtz",
     "test",
     "Untitled.md.edtz",
-    "test/test.md.edtz",
     "test/the second test/the second test.md",
     "2024-10-05.md",
     "2024-10-05 4.md",
