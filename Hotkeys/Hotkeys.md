@@ -66,8 +66,9 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- *Opens a video of any web URL in its own tab which is copy-pasted within any created/pre-existing .md file.*
 	- Alt + B - Timestamp Video or Audio (Timestamp Notes: Insert Timestamp based on videos current play time)
 		- *Timestamp any moment of a video then click to replay like with any bullet point.*
-	- Alt + D - Open PDF from Computer or Web Link (PDF++: Create Dummy File)
+	- Alt + P - Open PDF from Computer or Web Link (PDF++: Create Dummy File)
 		- *Creates a small-sized file for your PDF stored locally or from a Web Link to save space in your vault.*
+	- Alt + Shift + P - Paste link to any Insight from PDF File (PDF++: Copy link to selection or annotation)
 	- Alt + K - Find similar predicates of any word with Wordy
 	- Ctrl + Alt + K - Invert a predicate of any word with Wordy
 	- Ctrl + D = Dock Hover Tab into a Page

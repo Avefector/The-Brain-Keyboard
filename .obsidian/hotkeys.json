@@ -298,7 +298,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "D"
+      "key": "P"
     }
   ],
   "obsidian-hover-editor:dock-active-popover-to-workspace": [
@@ -619,6 +619,15 @@
         "Shift"
       ],
       "key": "A"
+    }
+  ],
+  "pdf-plus:copy-link-to-selection": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "P"
     }
   ]
 }
