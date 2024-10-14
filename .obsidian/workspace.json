@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6682854354038718",
+        "id": "f8948973bf88177c",
         "type": "tabs",
         "children": [
           {
-            "id": "5e5cb6645cf332e9",
+            "id": "10982f4edae2cd7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "6bef82203966bb8f",
+            "id": "3bc580be375bafa1",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -29,14 +29,14 @@
                 "file": "Hotkeys/Hotkeys.canvas",
                 "viewState": {
                   "x": 690,
-                  "y": 780.0576901160074,
-                  "zoom": -1.7310498706917863
+                  "y": 1220,
+                  "zoom": -1.7817418337866973
                 }
               }
             }
           },
           {
-            "id": "5fb3e8a29e8d57e1",
+            "id": "a86513310410024c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             }
           },
           {
-            "id": "b8410f9fd29ce9b5",
+            "id": "2d8879dfc0a89a2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hotkeys",
+                "query": "line:(), section:(), file:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 278.5026054382324
   },
   "right": {
     "id": "928828d8e1fbdcae",
@@ -125,7 +125,7 @@
       {
         "id": "170be7010bdaa992",
         "type": "tabs",
-        "dimension": 46.627906976744185,
+        "dimension": 41.63934426229508,
         "children": [
           {
             "id": "b9b716556fa1e2c5",
@@ -169,7 +169,7 @@
       {
         "id": "99c351cf80722fbe",
         "type": "tabs",
-        "dimension": 53.372093023255815,
+        "dimension": 58.36065573770492,
         "children": [
           {
             "id": "ac1f7c362e663277",
@@ -183,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,43 +202,48 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "5e5cb6645cf332e9",
+  "active": "10982f4edae2cd7b",
   "lastOpenFiles": [
     "sync.ffs_lock",
-    "sync.ffs_db.6174.ffs_tmp",
-    "sync.ffs_db.0740.ffs_tmp",
+    "sync.ffs_db.994a.ffs_tmp",
     "Hotkeys/Hotkeys.canvas",
     "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Hotkeys/Functional Thinking/N-grams.md",
-    "Hotkeys/Hotkeys.md",
-    "Untitled/Untitled.md",
-    "Untitled",
-    "Untitled/Untitled 1.md",
-    "sync.ffs_db",
-    "a for alliteration/a for alliteration.md",
-    "a for alliteration",
-    "a for alliteration/a for alliteration.md.edtz",
-    "Hotkeys/2023_Obsidian_logo_optimized.png",
-    "test 1 1.md",
-    "test 1 1 1.md",
-    "test 1.md",
-    "test/test.md",
-    "tested/tested.canvas",
-    "tested",
-    "test 1.md.edtz",
-    "test",
-    "Untitled.md.edtz",
-    "test/the second test/the second test.md",
-    "2024-10-05.md",
-    "2024-10-05 4.md",
-    "2024-10-05 5.md",
-    "2024-10-05 3.md",
-    "2024-10-05 2.md",
-    "2024-10-05 1.md",
     "Hotkeys/2024-ave.png",
-    "u/are a/cunt.md",
-    "Hotkeys.md",
-    "who.md",
-    "what.md"
+    "Hotkeys/Hotkeys.md",
+    "sync.ffs_db.e1c5.ffs_tmp",
+    "Hotkeys (664657)",
+    "Hotkeys/Hotkeys.canvas.md",
+    "Hotkeys (664657)/Hotkeys (664657).md",
+    "Hotkeys/Functional Thinking/N-grams.md.edtz",
+    "Hotkeys (664657)/Functional Thinking",
+    "Hotkeys/Functional Thinking/Functional Thinking.md.edtz",
+    "Hotkeys",
+    "Untitled/Untitled.canvas",
+    "Untitled/Untitled.md",
+    "Untitled/Untitled 3.md",
+    "Untitled/Untitled 2.md",
+    "Untitled/Untitled 1.md",
+    "Untitled",
+    "n/n.md",
+    "n/Untitled.md",
+    "n/Untitled 1.md",
+    "n/Untitled 2.md",
+    "n/Untitled 3.md",
+    "n/Untitled 4.md",
+    "n/Untitled 5.md",
+    "n/Untitled 6.md",
+    "n/Untitled 7.md",
+    "n/Untitled 8.md",
+    "n/Untitled 9.md",
+    "n/Untitled 10.md",
+    "n/Untitled 11.md",
+    "n/Untitled 12.md",
+    "n/Untitled 13.md",
+    "n/Untitled 14.md",
+    "n",
+    "sync.ffs_db.6174.ffs_tmp",
+    "Hotkeys (664657)/2023_Obsidian_logo_optimized.png",
+    "tested/tested.canvas"
   ]
 }

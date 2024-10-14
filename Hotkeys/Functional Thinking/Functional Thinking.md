@@ -10,5 +10,5 @@ A framework for the interfacing structure of the fixed sequence of something tha
 	- [[Hotkeys#^w1u5i]]
 - **Layer 2** - Replacing and Linking **Functions** in any Problem 
 3. Within uni-gram and/or n-grams, capture any descriptors within then [Search up](http://www.sinonimkata.com/) **Synonyms** to relate, **Antonyms** to change, **Hyponyms** to specify and **Hypernyms** to simplify to capture any [[N-grams]]. ^cqe6x
-    - [[Functional Thinking#^6br3d]]
+    - [[#^6br3d|^6br3d]]
     - [[Hotkeys#^oyt0v]]

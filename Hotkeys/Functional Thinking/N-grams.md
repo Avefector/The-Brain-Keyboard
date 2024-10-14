@@ -1,5 +1,5 @@
 - Any capturing of any words, predicates, symbols, videos, audio and images in a specific, coherent order of steps (sequence) in any counting you want/find: 2, 3, 4, ∞.... ^hdsb1
-	- [[#^muhrm]]
+	- [[#^muhrm|^muhrm]]
 	- [[Functional Thinking#^a5hxg]]
 	- [[Hotkeys#^022xq]]
 	- [[Hotkeys#^w1u5i]]
@@ -8,6 +8,6 @@
 	- [[Hotkeys#^022xq]]
 	- [[Functional Thinking#^6br3d]]
 - A predicate is any descriptor of many sets of verbs/nouns that ends in -s, -es, -ing, -ed or irregularly that are linked to symbols, videos, and images. ^jc4og
-	- [[#^hdsb1]]
+	- [[#^hdsb1|^hdsb1]]
 	- [[Hotkeys#^022xq]]
 	- [[Hotkeys#^oyt0v]]

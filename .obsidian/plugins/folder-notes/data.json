@@ -15,7 +15,7 @@
   "openFolderNoteOnClickInPath": true,
   "openInNewTab": false,
   "folderNoteName": "{{folder_name}}",
-  "folderNoteType": ".md",
+  "folderNoteType": ".ask",
   "disableFolderHighlighting": false,
   "newFolderNoteName": "{{folder_name}}",
   "storageLocation": "insideFolder",
@@ -48,7 +48,7 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "file_explorer",
+  "settingsTab": "general",
   "supportedFileTypes": [
     "md",
     "canvas"

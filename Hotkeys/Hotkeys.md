@@ -27,7 +27,9 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- *Allows for precise searching throughout the vault.*
 	- Ctrl + Shift + A - Find Notes by Links (Another Quick Switcher: File name fuzzy search)
 		- *Switch between one note to another by its Links.*
-		- [[Hotkeys#^022xq]]
+	- Ctrl + Alt + F - Browse Current Folder (Quick Explorer: Browse Current Folder)
+	- Ctrl + Alt + V - Browse Vault (Quick Explorer: Browse Vault)
+		- [[#^022xq|^022xq]]
 
 - ## Bulletpoints ^022xq
 	- Ctrl + N - Make New Note
@@ -48,6 +50,8 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Alt + ↕ - Move list and sublists up or down
 	- Ctrl + ↔ - Navigate a Previous or Current Page
 	- Alt + ↔ - Navigate Tabs
+	- Shift + ↔ - Go to the previous or next .md file in folder (Quick Explorer: Go to previous/next file in folder)
+	- Shift + ↕ - Go to the first or last .md file in folder (Quick Explorer: Go to first/last file in folder)
 	- Alt + T - Make New Tab
 	- Alt + M - Merge Notes (Note composer: Merge current file with another file)
 		- *If you need to know which file you're on lies within the vault.*
@@ -77,11 +81,13 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Alt + E = Clear Unused Images
 	- Ctrl + Alt + E - Collect all attachments to Current Note (Consistent Attachments and Links: Collect Attachments in Current Note)
 	- Ctrl + Shift + E - Rename every image in Note (Paste image rename: Batch rename all images instantly (in the current file))
+	- Ctrl + J - Copy Selection without the Markdown Links (Strip Internal Links: Selection (to clipboard))
+	- Alt + J -  Copy Everything without the Markdown Links (Strip Internal Links: Entire File (to clipboard))
 	- Attach Media - Drag & Drop / Copy-Paste
 	- Ctrl + Click = Click on an Image in Hover Editor
 	- Ctrl + P = Open Command Palette
 	- Ctrl + Alt + O - Restart Vault
-		- [[Hotkeys#^an8nq]]
+		- [[#^an8nq|^an8nq]]
 		- [[Functional Thinking#^a5hxg]]
 		- [[N-grams#^hdsb1]]
 - ## Links ^an8nq
@@ -115,7 +121,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + Shift + S - Scan Note for links (Note Linker: Scan Note)
 	- Alt + Shift + S - Scan Vault for links (Note Linker: Scan Vault)
 	- Ctrl + U - Repair links in file (Persistent Links: Repair links in file)
-		- [[#^w1u5i]]
+		- [[#^w1u5i|^w1u5i]]
 - ## Folder Notes ^w1u5i
 	- Ctrl + Tab - Turn Bulletpoint into Folder Note then link to it (Folder notes: Create folder note from selected text)
 		- *Transforms Bullet Point into its own Folder Note then replaces itself with a link in the previous (Folder) note to go in-depth with this piece of insight.*
@@ -137,4 +143,4 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- *Quickly move notes to a folder by searching them in the search tab.*
 		- *Hierarchically ties every note's connection to one another in a decentralized manner.*
 	- Alt + R - Set Current Note as Main Folder Note (Map of Content: Set current Note as Central Note)
-		- [[Hotkeys#^oyt0v]]
+		- [[#^oyt0v|^oyt0v]]
