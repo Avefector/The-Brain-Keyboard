@@ -48,6 +48,8 @@ My approach to learning the world around us.
 	- Create and carry a Block ID's link from one bullet point to another anywhere within or outside notes.
 	- Click spacebar between the information or media and your block IDs then copy-paste and/or drag it towards the end.
 		- Hold down the left or right arrow button on your keyboard to see where the ID is.
+- Folder notes: Insert folder overview
+	- Create and carry every and all links to notes AND Folder notes within the top Folder note
 - Carry-Forward: Copy Selection with each line linked to its copied source (Default Link Text)
 	- Same function as "Copy link to line" and copy-pastes the insights straight onto your idea for a project.
 - Links: Delete Link
