@@ -2,7 +2,7 @@
   "syncFolderName": true,
   "ctrlKey": true,
   "altKey": false,
-  "hideFolderNote": false,
+  "hideFolderNote": true,
   "templatePath": "",
   "autoCreate": false,
   "enableCollapsing": false,

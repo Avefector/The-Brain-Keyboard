@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "10982f4edae2cd7b",
+            "id": "3bc580be375bafa1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "3bc580be375bafa1",
+            "id": "0e0d2cd5df246fff",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -202,14 +202,21 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "10982f4edae2cd7b",
+  "active": "3bc580be375bafa1",
   "lastOpenFiles": [
     "sync.ffs_lock",
-    "Hotkeys/Functional Thinking/Functional Thinking.md",
-    "Hotkeys/Functional Thinking/N-grams.md",
-    "Hotkeys/Hotkeys.md",
+    "sync.ffs_db.a6de.ffs_tmp",
     "Hotkeys/Hotkeys.canvas",
+    "Hotkeys/Hotkeys.md",
+    "Hotkeys/Functional Thinking/N-grams.md",
+    "Untitled.md",
+    "Untitled",
+    "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Hotkeys/2024-ave.png",
+    "Untitled/Untitled.canvas",
+    "~$Resume.docx",
+    "Untitled.md.edtz",
+    "Resume.docx",
     "sync.ffs_db.994a.ffs_tmp",
     "sync.ffs_db.e1c5.ffs_tmp",
     "Hotkeys (664657)",
@@ -217,14 +224,9 @@
     "Hotkeys (664657)/Hotkeys (664657).md",
     "Hotkeys/Functional Thinking/N-grams.md.edtz",
     "Hotkeys (664657)/Functional Thinking",
-    "Hotkeys/Functional Thinking/Functional Thinking.md.edtz",
-    "Hotkeys",
-    "Untitled/Untitled.canvas",
-    "Untitled/Untitled.md",
     "Untitled/Untitled 3.md",
     "Untitled/Untitled 2.md",
     "Untitled/Untitled 1.md",
-    "Untitled",
     "n/n.md",
     "n/Untitled.md",
     "n/Untitled 1.md",
@@ -240,8 +242,6 @@
     "n/Untitled 11.md",
     "n/Untitled 12.md",
     "n/Untitled 13.md",
-    "n/Untitled 14.md",
-    "n",
     "Hotkeys (664657)/2023_Obsidian_logo_optimized.png",
     "tested/tested.canvas"
   ]

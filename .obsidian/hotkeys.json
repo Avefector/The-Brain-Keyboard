@@ -648,6 +648,7 @@
   "quick-explorer:go-prev": [
     {
       "modifiers": [
+        "Mod",
         "Shift"
       ],
       "key": "ArrowLeft"
@@ -656,13 +657,30 @@
   "quick-explorer:go-next": [
     {
       "modifiers": [
+        "Mod",
         "Shift"
       ],
       "key": "ArrowRight"
     }
   ],
-  "quick-explorer:go-first": [],
-  "quick-explorer:go-last": [],
+  "quick-explorer:go-first": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "quick-explorer:go-last": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
   "quick-explorer:browse-vault": [
     {
       "modifiers": [

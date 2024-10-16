@@ -1,8 +1,8 @@
 {
-  "autoCollectAttachments": false,
+  "autoCollectAttachments": true,
   "changeNoteBacklinksAlt": false,
   "consistencyReportFile": "consistency-report.md",
-  "deleteAttachmentsWithNote": false,
+  "deleteAttachmentsWithNote": true,
   "deleteEmptyFolders": true,
   "deleteExistFilesWhenMoveNote": false,
   "ignoreFiles": [
@@ -14,5 +14,5 @@
   ],
   "moveAttachmentsWithNote": true,
   "showWarning": false,
-  "updateLinks": true
+  "updateLinks": false
 }

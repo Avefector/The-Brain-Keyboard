@@ -50,7 +50,8 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Alt + ↕ - Move list and sublists up or down
 	- Ctrl + ↔ - Navigate a Previous or Current Page
 	- Alt + ↔ - Navigate Tabs
-	- Shift + ↔ - Go to the previous or next .md file in folder (Quick Explorer: Go to previous/next file in folder)
+	- Ctrl + Shift + ↔ - Go to the previous or next .md file in folder (Quick Explorer: Go to previous/next file in folder)
+	- Ctrl + Alt + ↕ - Go to the first or last .md file in folder (Quick Explorer: Go to first/last file in folder)
 	- Alt + T - Make New Tab
 	- Alt + M - Merge Notes (Note composer: Merge current file with another file)
 		- *If you need to know which file you're on lies within the vault.*
@@ -123,10 +124,10 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + U - Repair links in file (Persistent Links: Repair links in file)
 		- [[#^w1u5i|^w1u5i]]
 - ## Folder Notes ^w1u5i
-	- Ctrl + Tab - Turn Bulletpoint into Folder Note then link to it (Folder notes: Create folder note from selected text)
-		- *Transforms Bullet Point into its own Folder Note then replaces itself with a link in the previous (Folder) note to go in-depth with this piece of insight.*
 	- Shift + Tab - Turn Note into Folder Note (Folder notes: Create folder note with a new folder for the active note in the current folder)
 		- *Places note into its own folder note.*
+	- Ctrl + Tab - Turn Bulletpoint into Folder Note then link to it (Folder notes: Create folder note from selected text)
+		- *Transforms Bullet Point into its own Folder Note then replaces itself with a link in the previous (Folder) note to go in-depth with this piece of insight.*
 	- Ctrl + Shift + X - Delete Folder Note (Folder notes: Delete folder note of current folder of active note)
 	- Ctrl + Q / Alt + Q - Quickly Move Note to Folder (File Chucker: Move to new or existing folder) + Move current file to another folder
 		- *Moves note(s) into any existing folder and/or places note(s) into its own folder note regardless of file type(s).*
