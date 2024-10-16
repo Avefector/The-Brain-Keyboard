@@ -26,14 +26,15 @@
     "folderPath": "",
     "title": "{{folderName}} overview",
     "showTitle": false,
-    "depth": 3,
+    "depth": 6,
     "includeTypes": [
       "folder",
-      "markdown"
+      "markdown",
+      "canvas"
     ],
     "style": "list",
     "disableFileTag": false,
-    "sortBy": "name",
+    "sortBy": "modified",
     "sortByAsc": true,
     "showEmptyFolders": false,
     "onlyIncludeSubfolders": false,
@@ -48,7 +49,7 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "general",
+  "settingsTab": "folder_overview",
   "supportedFileTypes": [
     "md",
     "canvas"

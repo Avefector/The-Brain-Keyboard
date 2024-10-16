@@ -51,7 +51,6 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + ↔ - Navigate a Previous or Current Page
 	- Alt + ↔ - Navigate Tabs
 	- Shift + ↔ - Go to the previous or next .md file in folder (Quick Explorer: Go to previous/next file in folder)
-	- Shift + ↕ - Go to the first or last .md file in folder (Quick Explorer: Go to first/last file in folder)
 	- Alt + T - Make New Tab
 	- Alt + M - Merge Notes (Note composer: Merge current file with another file)
 		- *If you need to know which file you're on lies within the vault.*
@@ -91,22 +90,23 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- [[Functional Thinking#^a5hxg]]
 		- [[N-grams#^hdsb1]]
 - ## Links ^an8nq
-	- []\(<>) - Link Attachments to another Note
-		- *Turns your image, video, music etc. file into a link towards another note.*
-		- *You must be sure to copy-and-paste the Block ID link and remove the square brackets to allow for more bullet points to work in editing mode.*
-	- -- - Autosuggest New Date
 	- Ctrl + L - Create and Carry Link to another Note (Carry-Forward: Copy link to line (Default Link Text))
 		- *Create and carry a Block ID's link from one bullet point to another anywhere within or outside notes.*
 		- *Click spacebar between the information or media and your block IDs then copy-paste and/or drag it towards the end.*
 			- *Hold down the left or right arrow button on your keyboard to see where the ID is.*
-	- Type "=" + "]" (then optionally add a /) - Auto-Create New Note by Link (Note Auto Creator)
-		- *Adds a link to an existing and/or auto-creates new note in a link with the "/" symbol at the end.*
-	- Alt + L - Link Info from a Source (Carry-Forward: Copy Selection with each line linked to its copied source (Default Link Text))
-		- *Same function as "Copy link to line" and copy-pastes the text straight onto your idea for a project.*
-	- Ctrl + Shift + V - Paste Links from all notes within any (Folder) Note (Folder notes: Insert folder overview)
+	- Alt + L - Paste Links from all notes within any (Folder) Note (Folder notes: Insert folder overview)
+		- *Create and carry every and all links to notes AND Folder notes within the top Folder note*
 	- Ctrl + Alt + L - Move the current selection to a new Canvas and create a link in the current Canvas (Advanced Canvas: Encapsulate selection)
 	- Ctrl + Shift + L - Create a link to any (new) Canvas in the current Canvas (Advanced Canvas: Create file node)
 	- Alt + Shift + L - Find links to other files through any Word (Related Notes Finder: Show Possible Links)
+	- Ctrl + Shift + V - Link Info from a Source (Carry-Forward: Copy Selection with each line linked to its copied source (Default Link Text))
+	- []\(<>) - Link Attachments to another Note
+		- *Turns your image, video, music etc. file into a link towards another note.*
+		- *You must be sure to copy-and-paste the Block ID link and remove the square brackets to allow for more bullet points to work in editing mode.*
+	- -- - Autosuggest New Date
+		- *Same function as "Copy link to line" and copy-pastes the text straight onto your idea for a project.*
+	- Type "=" + "]" (then optionally add a /) - Auto-Create New Note by Link (Note Auto Creator)
+		- *Adds a link to an existing and/or auto-creates new note in a link with the "/" symbol at the end.*
 	- Ctrl + W - Add Internal Link
 	- Ctrl + Shift + W - Toggle to See Possible Links (Strange New Worlds: Toggle active state of SNW plugin on/off)
 		- *Quick linking in any note through tagged numbers next to insights.*

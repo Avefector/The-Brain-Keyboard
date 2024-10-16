@@ -20,7 +20,6 @@
   "obsidian-file-link",
   "links",
   "oz-clear-unused-images",
-  "paste-link",
   "obsidian-file-cooker",
   "file-chucker",
   "map-of-content",
@@ -42,5 +41,6 @@
   "better-search-views",
   "canvas-link-optimizer",
   "copy-without-links",
-  "quick-explorer"
+  "quick-explorer",
+  "url-into-selection"
 ]

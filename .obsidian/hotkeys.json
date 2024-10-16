@@ -573,10 +573,9 @@
   "folder-notes:insert-folder-overview-fn": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt"
       ],
-      "key": "V"
+      "key": "L"
     }
   ],
   "global-search:open": [
@@ -662,22 +661,8 @@
       "key": "ArrowRight"
     }
   ],
-  "quick-explorer:go-first": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "quick-explorer:go-last": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
+  "quick-explorer:go-first": [],
+  "quick-explorer:go-last": [],
   "quick-explorer:browse-vault": [
     {
       "modifiers": [
@@ -694,6 +679,15 @@
         "Mod"
       ],
       "key": "F"
+    }
+  ],
+  "obsidian-carry-forward:carry-line-forward-separate-lines": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
     }
   ]
 }
