@@ -36,11 +36,11 @@
   "obsidian-paste-image-rename",
   "folder-notes",
   "note-refactor-obsidian",
-  "obsidian-bartender",
   "remember-cursor-position",
   "better-search-views",
   "canvas-link-optimizer",
   "copy-without-links",
   "url-into-selection",
-  "quick-explorer"
+  "quick-explorer",
+  "obsidian-bartender"
 ]

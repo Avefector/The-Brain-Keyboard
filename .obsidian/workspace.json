@@ -17,7 +17,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Hotkeys"
             }
           },
           {
@@ -32,7 +34,9 @@
                   "y": 1220,
                   "zoom": -1.7817418337866973
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Hotkeys"
             }
           },
           {
@@ -45,7 +49,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Functional Thinking"
             }
           },
           {
@@ -58,7 +64,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "N-grams"
             }
           }
         ]
@@ -81,7 +89,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -96,7 +106,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -109,7 +121,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Hotkeys"
             }
           }
         ]
@@ -132,7 +146,9 @@
             "type": "leaf",
             "state": {
               "type": "Strange New Worlds",
-              "state": {}
+              "state": {},
+              "icon": "file-digit",
+              "title": "Strange New Worlds"
             }
           },
           {
@@ -144,7 +160,9 @@
                 "file": "Hotkeys/Hotkeys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Hotkeys"
             }
           },
           {
@@ -161,7 +179,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Hotkeys"
             }
           }
         ]
@@ -176,7 +196,9 @@
             "type": "leaf",
             "state": {
               "type": "map-of-content",
-              "state": {}
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Map of Content"
             }
           }
         ]
@@ -204,18 +226,18 @@
   },
   "active": "3bc580be375bafa1",
   "lastOpenFiles": [
-    "sync.ffs_lock",
-    "sync.ffs_db.a6de.ffs_tmp",
     "Hotkeys/Hotkeys.canvas",
     "Hotkeys/Hotkeys.md",
+    "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Hotkeys/Functional Thinking/N-grams.md",
     "Untitled.md",
+    "Untitled.md.edtz",
+    "sync.ffs_lock",
+    "sync.ffs_db.a6de.ffs_tmp",
     "Untitled",
-    "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Hotkeys/2024-ave.png",
     "Untitled/Untitled.canvas",
     "~$Resume.docx",
-    "Untitled.md.edtz",
     "Resume.docx",
     "sync.ffs_db.994a.ffs_tmp",
     "sync.ffs_db.e1c5.ffs_tmp",
@@ -223,7 +245,6 @@
     "Hotkeys/Hotkeys.canvas.md",
     "Hotkeys (664657)/Hotkeys (664657).md",
     "Hotkeys/Functional Thinking/N-grams.md.edtz",
-    "Hotkeys (664657)/Functional Thinking",
     "Untitled/Untitled 3.md",
     "Untitled/Untitled 2.md",
     "Untitled/Untitled 1.md",

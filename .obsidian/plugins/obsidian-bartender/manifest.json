@@ -1,1 +1,1 @@
-{"id":"obsidian-bartender","name":"Bartender","version":"0.5.10","minAppVersion":"1.2.0","description":"Rearrange/organize the elements in the file explorer, status bar, and sidebar ribbon.","author":"NothingIsLost","authorUrl":"https://github.com/nothingislost","isDesktopOnly":false}
+{"id":"obsidian-bartender","name":"Bartender","version":"0.5.17","minAppVersion":"1.7.1","description":"Allows for rearranging the elements in the status bar and sidebar ribbon","author":"NothingIsLost, zansbang, Mara-Li","authorUrl":"https://github.com/Mara-Li","isDesktopOnly":false}
