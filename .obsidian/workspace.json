@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3c12c718fdcae242",
+        "id": "91fe131b0990c140",
         "type": "tabs",
         "children": [
           {
-            "id": "50be06b26dec1449",
+            "id": "5157c5da2d4b7962",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "36063fc70e64fe49",
+            "id": "fc7f650a8ec3ca8d",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -40,7 +40,7 @@
             }
           },
           {
-            "id": "96fa345f3937a0bc",
+            "id": "5243b03c0addcf0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,7 +55,7 @@
             }
           },
           {
-            "id": "23f43d68d1cf9ea8",
+            "id": "fcfbba68742f42be",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -209,7 +209,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "darlal-switcher-plus:Open in Editor Mode": false,
       "darlal-switcher-plus:Open in Vaults Mode": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
@@ -225,8 +224,9 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "50be06b26dec1449",
+  "active": "5157c5da2d4b7962",
   "lastOpenFiles": [
+    "sync.ffs_db.c865.ffs_tmp",
     "sync.ffs_lock",
     "Hotkeys/Functional Thinking/N-grams.md",
     "Hotkeys/Functional Thinking/Functional Thinking.md",
