@@ -8,7 +8,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 ----
 
 - ## Search ^oyt0v
-	- Ctrl + S = Open Search Bar
+	- Ctrl + S - Open Search Bar
 	- Click on 🔍in Folder Tab - Search for File (Bartender)
 		- *Search any file within the folder tab.*
 			- Use *'* at the start for an exact match
@@ -16,19 +16,19 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- file:() - Search a file name
 	- Highlight Text + Ctrl + S - Search for Canvases/Files
 	- Alt + S - Search any card within .canvas files (Simple CanvaSearch: Open CanvaSearch modal)
-		- *Searches and redirect you to any card within a .canvas file.* 
+		- *Searches and redirect you to any card within a .canvas file.*
 	- Ctrl + Alt + Q - Reveal Note in Files Tab (Files: Reveal current file in navigation)
 		- *If you need to know where your file lies in the vault.*
-	- Alt + A - Find (Folder) Notes & Notes Within (Folder) Notes (Another Quick Switcher: Reveal a folder in the file tree)
-		- *Reveal any folder notes in your vault.*
+	- Alt + F - Search for Folder Note (Another Quick Switcher: Reveal a Folder in the File Tree)
+		- *Searches and redirect you to any folder note to open.*
+	- Alt + A - Go back to a folder note (Folder notes: Open folder note of current folder of active note)
+		- *Jumps to the main folder note in a file.*
 	- Ctrl + O - Search Within a File (Omnisearch: In-file Search)
 		- *Allows for precise searching within any sort of file (including images).*
 	- Alt + O - Search the Vault (Omnisearch: Vault Search)
 		- *Allows for precise searching throughout the vault.*
-	- Ctrl + Shift + A - Find Notes by Links (Another Quick Switcher: File name fuzzy search)
-		- *Switch between one note to another by its Links.*
-	- Ctrl + Alt + F - Browse Current Folder (Quick Explorer: Browse Current Folder)
-	- Ctrl + Alt + V - Browse Vault (Quick Explorer: Browse Vault)
+	- Ctrl + Shift + A - Switch between Vaults (Quick Switcher++: Open in Vaults Mode)
+		- *Switch between one vault to another*
 		- [[#^022xq|^022xq]]
 
 - ## Bulletpoints ^022xq
@@ -46,21 +46,21 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- *Merges your insights together by removing or adding bullet points.*
 	- Ctrl + [ or ] - Indent or Outdent Bulletpoint
 	- Alt + [ or ] - Indent or Outdent list and sublists
-	- Ctrl + ↕ = Move a bullet point's position
+	- Ctrl + ↕ - Move a bullet point's position
 	- Alt + ↕ - Move list and sublists up or down
 	- Ctrl + ↔ - Navigate a Previous or Current Page
 	- Alt + ↔ - Navigate Tabs
-	- Ctrl + Shift + ↔ - Go to the previous or next .md file in folder (Quick Explorer: Go to previous/next file in folder)
-	- Ctrl + Alt + ↕ - Go to the first or last .md file in folder (Quick Explorer: Go to first/last file in folder)
+	- Ctrl + Shift + ↕ - Go to the previous or next .md file in folder (Quick Explorer: Go to previous/next file in folder)
+		- *Switch between any folder notes in your vault.*
 	- Alt + T - Make New Tab
 	- Alt + M - Merge Notes (Note composer: Merge current file with another file)
 		- *If you need to know which file you're on lies within the vault.*
 	- Ctrl + R - Toggle Reading Mode in Note
 	- Ctrl + F - Search Current File
 	- Alt + X - Close Current Tab
-	- Ctrl + Alt + X = Delete Current Note (Delete current File)
+	- Ctrl + Alt + X - Delete Current Note (Delete current File)
 	- Alt + H - Undo Edit to Bulletpoint (Edit History: Open edit history for this file)
-	- Alt + G = Open Local Graph
+	- Alt + G - Open Local Graph
 	- Alt + W - Encrypt Highlighted Bulletpoint (Inline Encrypter: Encrypt Selected Text)
 	- Ctrl + Alt + W - Decrypt Highlighted Bulletpoint (Inline Encrypter: Decrypt Selected Text)
 	- Ctrl + M - Timestamp a Note/Card (Natural Language Dates: Insert The Current Date and Time - dddd, MMMM Do, YYYY)
@@ -75,17 +75,17 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Alt + Shift + P - Paste link to any Insight from PDF File (PDF++: Copy link to selection or annotation)
 	- Alt + K - Find similar predicates of any word with Wordy
 	- Ctrl + Alt + K - Invert a predicate of any word with Wordy
-	- Ctrl + D = Dock Hover Tab into a Page
+	- Ctrl + D - Dock Hover Tab into a Page
 	- Alt + Shift + C - Add highlight from file to canvas (File Cooker: Add selection in current file to canvas)
 		- *Highlight anything from an .md and paste it onto a canvas file with precision.*
-	- Alt + E = Clear Unused Images
+	- Alt + E - Clear Unused Images
 	- Ctrl + Alt + E - Collect all attachments to Current Note (Consistent Attachments and Links: Collect Attachments in Current Note)
 	- Ctrl + Shift + E - Rename every image in Note (Paste image rename: Batch rename all images instantly (in the current file))
 	- Ctrl + J - Copy Selection without the Markdown Links (Strip Internal Links: Selection (to clipboard))
 	- Alt + J -  Copy Everything without the Markdown Links (Strip Internal Links: Entire File (to clipboard))
 	- Attach Media - Drag & Drop / Copy-Paste
-	- Ctrl + Click = Click on an Image in Hover Editor
-	- Ctrl + P = Open Command Palette
+	- Ctrl + Click - Click on an Image in Hover Editor
+	- Ctrl + P - Open Command Palette
 	- Ctrl + Alt + O - Restart Vault
 		- [[#^an8nq|^an8nq]]
 		- [[Functional Thinking#^a5hxg]]
@@ -112,7 +112,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + Shift + W - Toggle to See Possible Links (Strange New Worlds: Toggle active state of SNW plugin on/off)
 		- *Quick linking in any note through tagged numbers next to insights.*
 	- Ctrl + E - Add Link to File Outside of Vault (Better File Link: Add File Link)
-	- Alt + Shift + E = Turn an Embed Link into an Internal Link (Links: Embed/Unembed Link)
+	- Alt + Shift + E - Turn an Embed Link into an Internal Link (Links: Embed/Unembed Link)
 	- Alt + U - Copy Link to Obsidian URL
 	- Ctrl + Alt + D - Add Searched Files/Links to Canvas (File Cooker: Add files in searchresults to target canvas)
 		- *Add as many files as possible onto a canvas from the search results in the search tab.*
@@ -133,7 +133,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- *Moves note(s) into any existing folder and/or places note(s) into its own folder note regardless of file type(s).*
 	- Ctrl + Alt + R - Rename all other files linked in current Note (File Cooker: Rename in current file links)
 		- *Rename all other files linked in current Note at once.*
-	- Alt + F - Move Files to Folder Note by Links (File Cooker: Move Links in Current File to...)
+	- Ctrl + Alt + F - Move Files to Folder Note by Links (File Cooker: Move Links in Current File to...)
 		- *Move files to folder note by links.*
 	- Alt + Shift + R - Rename Files in Searchresults (File Cooker: Rename Files in Searchresults)
 		- *Rename Files in folder notes by the results in the search tab.*

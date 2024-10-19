@@ -1,5 +1,4 @@
 [
-  "obsidian-another-quick-switcher",
   "omnisearch",
   "simple-canvasearch",
   "obsidian-wordy",
@@ -24,7 +23,6 @@
   "file-chucker",
   "map-of-content",
   "obsidian-outliner",
-  "surfing",
   "obsidian42-brat",
   "tray",
   "obsidian-style-settings",
@@ -42,5 +40,8 @@
   "copy-without-links",
   "url-into-selection",
   "quick-explorer",
-  "obsidian-bartender"
+  "obsidian-bartender",
+  "surfing",
+  "obsidian-another-quick-switcher",
+  "darlal-switcher-plus"
 ]

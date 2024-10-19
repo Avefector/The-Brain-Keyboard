@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f8948973bf88177c",
+        "id": "3c12c718fdcae242",
         "type": "tabs",
         "children": [
           {
-            "id": "3bc580be375bafa1",
+            "id": "50be06b26dec1449",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "0e0d2cd5df246fff",
+            "id": "36063fc70e64fe49",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -32,7 +32,7 @@
                 "viewState": {
                   "x": 690,
                   "y": 1220,
-                  "zoom": -1.7817418337866973
+                  "zoom": -1.7310498706917863
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -40,7 +40,7 @@
             }
           },
           {
-            "id": "a86513310410024c",
+            "id": "96fa345f3937a0bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,7 +55,7 @@
             }
           },
           {
-            "id": "2d8879dfc0a89a2c",
+            "id": "23f43d68d1cf9ea8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -209,7 +209,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "surfing:surfing-bookmark-manager": false,
+      "darlal-switcher-plus:Open in Editor Mode": false,
+      "darlal-switcher-plus:Open in Vaults Mode": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -224,18 +225,18 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "3bc580be375bafa1",
+  "active": "50be06b26dec1449",
   "lastOpenFiles": [
+    "sync.ffs_lock",
+    "Hotkeys/Functional Thinking/N-grams.md",
+    "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Hotkeys/Hotkeys.canvas",
     "Hotkeys/Hotkeys.md",
-    "Hotkeys/Functional Thinking/Functional Thinking.md",
-    "Hotkeys/Functional Thinking/N-grams.md",
-    "Untitled.md",
-    "Untitled.md.edtz",
-    "sync.ffs_lock",
-    "sync.ffs_db.a6de.ffs_tmp",
-    "Untitled",
+    "Untitled/Untitled.md",
     "Hotkeys/2024-ave.png",
+    "Untitled",
+    "Untitled.md.edtz",
+    "sync.ffs_db.a6de.ffs_tmp",
     "Untitled/Untitled.canvas",
     "~$Resume.docx",
     "Resume.docx",

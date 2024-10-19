@@ -12,7 +12,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "A"
+      "key": "F"
     }
   ],
   "omnisearch:show-modal-infile": [
@@ -451,7 +451,8 @@
   "obsidian-file-cooker:move-links-to": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod"
       ],
       "key": "F"
     }
@@ -611,15 +612,7 @@
       "key": "Tab"
     }
   ],
-  "obsidian-another-quick-switcher:search-command_file-name-fuzzy-search": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "A"
-    }
-  ],
+  "obsidian-another-quick-switcher:search-command_file-name-fuzzy-search": [],
   "pdf-plus:copy-link-to-selection": [
     {
       "modifiers": [
@@ -651,7 +644,7 @@
         "Mod",
         "Shift"
       ],
-      "key": "ArrowLeft"
+      "key": "ArrowUp"
     }
   ],
   "quick-explorer:go-next": [
@@ -660,45 +653,11 @@
         "Mod",
         "Shift"
       ],
-      "key": "ArrowRight"
-    }
-  ],
-  "quick-explorer:go-first": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "quick-explorer:go-last": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
       "key": "ArrowDown"
     }
   ],
-  "quick-explorer:browse-vault": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "V"
-    }
-  ],
-  "quick-explorer:browse-current": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "F"
-    }
-  ],
+  "quick-explorer:go-first": [],
+  "quick-explorer:go-last": [],
   "obsidian-carry-forward:carry-line-forward-separate-lines": [
     {
       "modifiers": [
@@ -706,6 +665,24 @@
         "Shift"
       ],
       "key": "V"
+    }
+  ],
+  "obsidian-another-quick-switcher:move": [],
+  "darlal-switcher-plus:switcher-plus:open-vaults": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "folder-notes:open-folder-note-for-current-folder": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "consistencyReportFile": "consistency-report.md",
   "deleteAttachmentsWithNote": true,
   "deleteEmptyFolders": true,
-  "deleteExistFilesWhenMoveNote": false,
+  "deleteExistFilesWhenMoveNote": true,
   "ignoreFiles": [
     "consistency\\-report\\.md"
   ],

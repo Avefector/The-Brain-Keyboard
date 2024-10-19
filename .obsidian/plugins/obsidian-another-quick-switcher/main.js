@@ -767,7 +767,9 @@ var AppHelper = class {
     if (!f) {
       return null;
     }
-    return this.unsafeApp.metadataCache.getBacklinksForFile(f).data;
+    return Object.fromEntries(
+      this.unsafeApp.metadataCache.getBacklinksForFile(f).data
+    );
   }
   // noinspection FunctionWithMultipleLoopsJS
   /**
@@ -3723,7 +3725,7 @@ var AnotherQuickSwitcherModal = class _AnotherQuickSwitcherModal extends import_
           floating: this.floating
         },
         originFile: file,
-        inputQuery: "",
+        inputQuery: null,
         navigationHistories: [
           ...this.navigationHistories.slice(
             0,
@@ -5826,7 +5828,7 @@ var MoveModal = class extends import_obsidian11.SuggestModal {
 // src/commands.ts
 var SEARCH_COMMAND_PREFIX = "search-command";
 function showSearchDialog(app, settings, command) {
-  var _a, _b, _c, _d, _e;
+  var _a, _b, _c, _d;
   const activeFileLeaf = (_b = (_a = app.workspace.getActiveViewOfType(import_obsidian12.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
   const editor = (_d = (_c = app.workspace.getActiveViewOfType(import_obsidian12.MarkdownView)) == null ? void 0 : _c.editor) != null ? _d : null;
   const modal = new AnotherQuickSwitcherModal({
@@ -5834,7 +5836,7 @@ function showSearchDialog(app, settings, command) {
     settings,
     command,
     originFile: app.workspace.getActiveFile(),
-    inputQuery: settings.useSelectionWordsAsDefaultInputQuery ? (_e = editor == null ? void 0 : editor.getSelection()) != null ? _e : null : null,
+    inputQuery: settings.useSelectionWordsAsDefaultInputQuery ? (editor == null ? void 0 : editor.getSelection()) || null : null,
     navigationHistories: [],
     currentNavigationHistoryIndex: 0,
     stackHistory: true,
@@ -6066,3 +6068,5 @@ var AnotherQuickSwitcher = class extends import_obsidian13.Plugin {
     await this.saveData(this.settings);
   }
 };
+
+/* nosourcemap */
