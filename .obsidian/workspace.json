@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5157c5da2d4b7962",
+            "id": "52829d02406a1d6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "fc7f650a8ec3ca8d",
+            "id": "47d87935c9297159",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -224,14 +224,14 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "5157c5da2d4b7962",
+  "active": "52829d02406a1d6c",
   "lastOpenFiles": [
-    "sync.ffs_db.c865.ffs_tmp",
     "sync.ffs_lock",
-    "Hotkeys/Functional Thinking/N-grams.md",
-    "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Hotkeys/Hotkeys.canvas",
     "Hotkeys/Hotkeys.md",
+    "sync.ffs_db.c865.ffs_tmp",
+    "Hotkeys/Functional Thinking/N-grams.md",
+    "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Untitled/Untitled.md",
     "Hotkeys/2024-ave.png",
     "Untitled",
@@ -245,7 +245,6 @@
     "Hotkeys (664657)",
     "Hotkeys/Hotkeys.canvas.md",
     "Hotkeys (664657)/Hotkeys (664657).md",
-    "Hotkeys/Functional Thinking/N-grams.md.edtz",
     "Untitled/Untitled 3.md",
     "Untitled/Untitled 2.md",
     "Untitled/Untitled 1.md",
