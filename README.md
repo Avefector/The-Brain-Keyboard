@@ -25,6 +25,8 @@ My approach to learning the world around us.
 	- Reveal any folder notes in your vault.
 - Omnisearch: Vault Search + In-file Search
 	- Allows for precise searching within any sort of file (including images) as well as all throughout the vault.
+- Quick Switcher++: Open in Vaults Mode
+	- Switch between one vault to another 
 - ## Bullet Points
 - Make Bullet Point or Checkbox (Cycle Bullet/Checkbox) + Indent or Outdent Bullet Point
 	- For adding insights & details and then allows me to hide and show links to be more specific towards any other information it can extrapolate either within or towards other notes. 
