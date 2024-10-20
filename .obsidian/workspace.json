@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "91fe131b0990c140",
+        "id": "35bc241d518bdbbb",
         "type": "tabs",
         "children": [
           {
-            "id": "52829d02406a1d6c",
+            "id": "da2a0ba1475d1467",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "47d87935c9297159",
+            "id": "d276b5c53a4c72b6",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -40,7 +40,7 @@
             }
           },
           {
-            "id": "5243b03c0addcf0b",
+            "id": "eaede9296e738026",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,7 +55,7 @@
             }
           },
           {
-            "id": "fcfbba68742f42be",
+            "id": "b04489cf983c64db",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -130,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5026054382324
+    "width": 415.5026054382324
   },
   "right": {
     "id": "928828d8e1fbdcae",
@@ -224,30 +224,39 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "52829d02406a1d6c",
+  "active": "da2a0ba1475d1467",
   "lastOpenFiles": [
     "sync.ffs_lock",
     "Hotkeys/Hotkeys.canvas",
     "Hotkeys/Hotkeys.md",
-    "sync.ffs_db.c865.ffs_tmp",
     "Hotkeys/Functional Thinking/N-grams.md",
     "Hotkeys/Functional Thinking/Functional Thinking.md",
     "Untitled/Untitled.md",
-    "Hotkeys/2024-ave.png",
+    "Untitled/Untitled 1.md",
+    "Untitled/Untitled 1.md.edtz",
+    "Untitled/Untitled",
+    "Hotkeys/Hotkeys/make these new hotkeys to replace collect attachments plugins and others because its too fucking buggy for me.png",
+    "Untitled/Untitled.md.edtz",
     "Untitled",
-    "Untitled.md.edtz",
-    "sync.ffs_db.a6de.ffs_tmp",
+    "Hotkeys/Hotkeys",
+    "Hotkeys/Hotkeys/2024-ave.png",
+    "Hotkeys/Hotkeys/2023_Obsidian_logo_optimized.png",
+    ".Hotkeys/2024-ave.png",
+    "Hotkeys/Untitled/Hotkeys/Untitled",
+    "Hotkeys/Untitled/Hotkeys",
+    "Hotkeys/Untitled",
+    "Untitled/Hotkeys/Untitled",
+    "Untitled/Hotkeys",
+    ".Hotkeys/make these new hotkeys to replace collect attachments plugins and others because its too fucking buggy for me.png",
+    "Hotkeys/assets/Hotkeys/make these new hotkeys to replace collect attachments plugins and others because its too fucking buggy for me.png",
+    "Hotkeys/.png",
+    "Hotkeys/Hotkeys/Hotkeys/IMG-20241020005829633.png",
+    "Hotkeys/Hotkeys/Hotkeys/IMG-20241020005732557.png",
     "Untitled/Untitled.canvas",
-    "~$Resume.docx",
-    "Resume.docx",
-    "sync.ffs_db.994a.ffs_tmp",
-    "sync.ffs_db.e1c5.ffs_tmp",
-    "Hotkeys (664657)",
     "Hotkeys/Hotkeys.canvas.md",
     "Hotkeys (664657)/Hotkeys (664657).md",
     "Untitled/Untitled 3.md",
     "Untitled/Untitled 2.md",
-    "Untitled/Untitled 1.md",
     "n/n.md",
     "n/Untitled.md",
     "n/Untitled 1.md",
@@ -263,7 +272,6 @@
     "n/Untitled 11.md",
     "n/Untitled 12.md",
     "n/Untitled 13.md",
-    "Hotkeys (664657)/2023_Obsidian_logo_optimized.png",
     "tested/tested.canvas"
   ]
 }

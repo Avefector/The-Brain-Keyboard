@@ -562,15 +562,6 @@
       "key": "S"
     }
   ],
-  "obsidian-paste-image-rename:batch-rename-all-images": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
   "folder-notes:insert-folder-overview-fn": [
     {
       "modifiers": [
@@ -683,6 +674,24 @@
         "Alt"
       ],
       "key": "A"
+    }
+  ],
+  "obsidian-custom-attachment-location:collect-attachments-current-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "obsidian-custom-attachment-location:collect-attachments-current-folder": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
     }
   ]
 }

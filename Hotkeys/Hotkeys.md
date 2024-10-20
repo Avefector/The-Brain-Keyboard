@@ -54,7 +54,6 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 		- *Switch between any folder notes in your vault.*
 	- Alt + T - Make New Tab
 	- Alt + M - Merge Notes (Note composer: Merge current file with another file)
-		- *If you need to know which file you're on lies within the vault.*
 	- Ctrl + R - Toggle Reading Mode in Note
 	- Ctrl + F - Search Current File
 	- Alt + X - Close Current Tab
@@ -79,8 +78,8 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Alt + Shift + C - Add highlight from file to canvas (File Cooker: Add selection in current file to canvas)
 		- *Highlight anything from an .md and paste it onto a canvas file with precision.*
 	- Alt + E - Clear Unused Images
-	- Ctrl + Alt + E - Collect all attachments to Current Note (Consistent Attachments and Links: Collect Attachments in Current Note)
-	- Ctrl + Shift + E - Rename every image in Note (Paste image rename: Batch rename all images instantly (in the current file))
+	- Ctrl + Shift + E - Move attachments to another note (Custom Attachment Location: Collect attachments in current note)
+	- Ctrl + Alt + E - Move attachments to another Folder note (Custom Attachment Location: Collect attachments in current folder)
 	- Ctrl + J - Copy Selection without the Markdown Links (Strip Internal Links: Selection (to clipboard))
 	- Alt + J -  Copy Everything without the Markdown Links (Strip Internal Links: Entire File (to clipboard))
 	- Attach Media - Drag & Drop / Copy-Paste

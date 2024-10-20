@@ -10,7 +10,6 @@
   "obsidian-timestamp-notes",
   "pdf-plus",
   "advanced-canvas",
-  "consistent-attachments-and-links",
   "obsidian-hover-editor",
   "obsidian-carry-forward",
   "obsidian-note-autocreator",
@@ -31,17 +30,17 @@
   "auto-filename",
   "obisidian-note-linker",
   "edit-history",
-  "obsidian-paste-image-rename",
   "folder-notes",
   "note-refactor-obsidian",
   "remember-cursor-position",
   "better-search-views",
   "canvas-link-optimizer",
   "copy-without-links",
-  "url-into-selection",
   "quick-explorer",
   "obsidian-bartender",
   "surfing",
   "obsidian-another-quick-switcher",
-  "darlal-switcher-plus"
+  "darlal-switcher-plus",
+  "obsidian-custom-attachment-location",
+  "url-into-selection"
 ]
