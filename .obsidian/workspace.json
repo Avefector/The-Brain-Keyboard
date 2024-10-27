@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "35bc241d518bdbbb",
+        "id": "f2fd214498f8682c",
         "type": "tabs",
         "children": [
           {
-            "id": "da2a0ba1475d1467",
+            "id": "c6e0379c2905c9cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "d276b5c53a4c72b6",
+            "id": "5e971f643890184a",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -40,7 +40,7 @@
             }
           },
           {
-            "id": "eaede9296e738026",
+            "id": "740b2d873ba3566d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,7 +55,7 @@
             }
           },
           {
-            "id": "b04489cf983c64db",
+            "id": "70083ab88af3d170",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -100,10 +100,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(), section:(), file:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -130,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5026054382324
+    "width": 292.5026054382324
   },
   "right": {
     "id": "928828d8e1fbdcae",
@@ -205,10 +205,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "darlal-switcher-plus:Open in Vaults Mode": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
@@ -221,37 +222,44 @@
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obisidian-note-linker:Note Linker": false,
       "edit-history:Open edit history": false,
+      "surfing:surfing-bookmark-manager": false,
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "da2a0ba1475d1467",
+  "active": "c6e0379c2905c9cc",
   "lastOpenFiles": [
     "sync.ffs_lock",
-    "Hotkeys/Hotkeys.canvas",
-    "Hotkeys/Hotkeys.md",
     "Hotkeys/Functional Thinking/N-grams.md",
     "Hotkeys/Functional Thinking/Functional Thinking.md",
+    "Hotkeys/Hotkeys.canvas",
+    "Hotkeys/Hotkeys.md",
+    "Untitled.md",
+    "Untitled.md.edtz",
+    "Untitled 1.md",
+    "Untitled 1.md.edtz",
+    "ssstwitter.com_1729472490983.mp4",
+    "ssstwitter.com_1729472490983.mp4.md",
+    "Untitled/file-${filenameMMDDHHmmssSSS}.png",
+    "Untitled",
+    "Media Note - 2024-06-30 17-52-40/2024-06-30 17-52-40PT31M0.559S.png",
+    "Media Note - 2024-06-30 17-52-40.md",
+    "Media Note - 2024-06-30 17-52-40",
+    "Media Note - 2024-06-30 17-52-40.md.edtz",
+    "Untitled.canvas",
+    "Media Note - 3-Minute Mental Hack to Take Control of Your Subconscious.md",
+    "Media Note - 3-Minute Mental Hack to Take Control of Your Subconscious.md.edtz",
+    "sync.ffs_db.5e9c.ffs_tmp",
     "Untitled/Untitled.md",
     "Untitled/Untitled 1.md",
     "Untitled/Untitled 1.md.edtz",
-    "Untitled/Untitled",
     "Hotkeys/Hotkeys/make these new hotkeys to replace collect attachments plugins and others because its too fucking buggy for me.png",
-    "Untitled/Untitled.md.edtz",
-    "Untitled",
-    "Hotkeys/Hotkeys",
     "Hotkeys/Hotkeys/2024-ave.png",
     "Hotkeys/Hotkeys/2023_Obsidian_logo_optimized.png",
     ".Hotkeys/2024-ave.png",
-    "Hotkeys/Untitled/Hotkeys/Untitled",
-    "Hotkeys/Untitled/Hotkeys",
-    "Hotkeys/Untitled",
-    "Untitled/Hotkeys/Untitled",
-    "Untitled/Hotkeys",
     ".Hotkeys/make these new hotkeys to replace collect attachments plugins and others because its too fucking buggy for me.png",
     "Hotkeys/assets/Hotkeys/make these new hotkeys to replace collect attachments plugins and others because its too fucking buggy for me.png",
     "Hotkeys/.png",
     "Hotkeys/Hotkeys/Hotkeys/IMG-20241020005829633.png",
-    "Hotkeys/Hotkeys/Hotkeys/IMG-20241020005732557.png",
     "Untitled/Untitled.canvas",
     "Hotkeys/Hotkeys.canvas.md",
     "Hotkeys (664657)/Hotkeys (664657).md",
@@ -267,11 +275,6 @@
     "n/Untitled 6.md",
     "n/Untitled 7.md",
     "n/Untitled 8.md",
-    "n/Untitled 9.md",
-    "n/Untitled 10.md",
-    "n/Untitled 11.md",
-    "n/Untitled 12.md",
-    "n/Untitled 13.md",
     "tested/tested.canvas"
   ]
 }

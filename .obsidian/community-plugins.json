@@ -7,7 +7,6 @@
   "inline-encrypter",
   "obsidian-image-toolkit",
   "nldates-obsidian",
-  "obsidian-timestamp-notes",
   "pdf-plus",
   "advanced-canvas",
   "obsidian-hover-editor",
@@ -22,7 +21,6 @@
   "file-chucker",
   "map-of-content",
   "obsidian-outliner",
-  "obsidian42-brat",
   "tray",
   "obsidian-style-settings",
   "persistent-links",
@@ -37,10 +35,12 @@
   "canvas-link-optimizer",
   "copy-without-links",
   "quick-explorer",
-  "obsidian-bartender",
-  "surfing",
   "obsidian-another-quick-switcher",
   "darlal-switcher-plus",
   "obsidian-custom-attachment-location",
-  "url-into-selection"
+  "url-into-selection",
+  "surfing",
+  "obsidian-timestamp-notes",
+  "obsidian42-brat",
+  "obsidian-bartender"
 ]

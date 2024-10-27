@@ -251,30 +251,6 @@
       "key": "M"
     }
   ],
-  "obsidian-timestamp-notes:open-sample-modal-complex": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "V"
-    }
-  ],
-  "obsidian-timestamp-notes:trigger-player": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Y"
-    }
-  ],
-  "obsidian-timestamp-notes:timestamp-insert": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
   "editor:delete-paragraph": [],
   "obsidian-wordy:wordy-syn": [
     {
@@ -692,6 +668,30 @@
         "Mod"
       ],
       "key": "E"
+    }
+  ],
+  "obsidian-timestamp-notes:open-sample-modal-complex": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "obsidian-timestamp-notes:trigger-player": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Y"
+    }
+  ],
+  "obsidian-timestamp-notes:timestamp-insert": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
     }
   ]
 }

@@ -2418,3 +2418,5 @@ var ThePlugin = class extends import_obsidian11.Plugin {
     await this.saveData(this.settings);
   }
 };
+
+/* nosourcemap */
