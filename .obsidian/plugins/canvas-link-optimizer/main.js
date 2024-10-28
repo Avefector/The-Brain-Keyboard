@@ -99,17 +99,17 @@ var CanvasLinkOptimizerPlugin = class extends import_obsidian.Plugin {
     this.reloadActiveCanvasViews();
   }
   reloadActiveCanvasViews() {
-    this.app.workspace.getLeavesOfType("canvas").map((leaf) => leaf.rebuildView());
+    this.app.workspace.getLeavesOfType("canvas").forEach((leaf) => leaf.rebuildView());
   }
   log(msg, debug = false) {
     debug ? console.debug(`[${this.name}]`, msg) : console.log(`[${this.name}]`, msg);
   }
   tryPatchLinkNode() {
-    var _a;
-    const canvasView = (_a = this.app.workspace.getLeavesOfType("canvas").first()) == null ? void 0 : _a.view;
-    if (!canvasView)
-      return false;
-    const canvas = canvasView == null ? void 0 : canvasView.canvas;
+    var _a, _b;
+    const canvas = (_b = (_a = this.app.workspace.getLeavesOfType("canvas").find((leaf) => {
+      var _a2;
+      return (_a2 = leaf == null ? void 0 : leaf.view) == null ? void 0 : _a2.canvas;
+    })) == null ? void 0 : _a.view) == null ? void 0 : _b.canvas;
     if (!canvas)
       return false;
     const linkNodeConstructor = this.retrieveLinkNodeConstructor(canvas);
@@ -134,6 +134,9 @@ var CanvasLinkOptimizerPlugin = class extends import_obsidian.Plugin {
       },
       _getMetadataPath: () => function() {
         return `${thisPlugin.cacheDir}/${this.id}.metadata.json`;
+      },
+      updateBreakpoint: () => function() {
+        this.mountContent();
       },
       initialize: (next) => function(...args) {
         this._initializing = true;
@@ -177,7 +180,6 @@ var CanvasLinkOptimizerPlugin = class extends import_obsidian.Plugin {
         (async () => {
           const revealWebview = () => {
             var _a, _b;
-            this.alwaysKeepLoaded = true;
             (_b = (_a = this._perviewImageEl) == null ? void 0 : _a.remove) == null ? void 0 : _b.call(_a);
             this.recreateFrame();
           };
@@ -193,7 +195,6 @@ var CanvasLinkOptimizerPlugin = class extends import_obsidian.Plugin {
             this.recreateFrame();
             return;
           }
-          this.alwaysKeepLoaded = false;
           const metadataRaw = await thisPlugin.app.vault.adapter.read(
             this._getMetadataPath()
           );
@@ -312,3 +313,5 @@ var CanvasLinkOptimizerPlugin = class extends import_obsidian.Plugin {
     return (canvas.nodes || []).map((node) => node.id);
   }
 };
+
+/* nosourcemap */

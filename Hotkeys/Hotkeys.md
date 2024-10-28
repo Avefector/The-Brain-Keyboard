@@ -1,5 +1,5 @@
 [![[2024-ave.png]]](<Hotkeys.canvas>)
-## Prebuilt Vault - October 6th, 2024
+## Prebuilt Vault - October 27th, 2024
 
 The [[Functional Thinking]] framework and [[N-grams]] are your guiding principles!
 
@@ -50,6 +50,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Alt + ↕ - Move list and sublists up or down
 	- Ctrl + ↔ - Navigate a Previous or Current Page
 	- Alt + ↔ - Navigate Tabs
+	- Ctrl + Alt + ↕ / Ctrl + Alt + ↔ - Focus on tab group(s) of all angles.
 	- Ctrl + Shift + ↕ - Go to the previous or next .md file in folder (Quick Explorer: Go to previous/next file in folder)
 		- *Switch between any folder notes in your vault.*
 	- Alt + T - Make New Tab
@@ -62,13 +63,13 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Alt + G - Open Local Graph
 	- Alt + W - Encrypt Highlighted Bulletpoint (Inline Encrypter: Encrypt Selected Text)
 	- Ctrl + Alt + W - Decrypt Highlighted Bulletpoint (Inline Encrypter: Decrypt Selected Text)
-	- Ctrl + M - Timestamp a Note/Card (Natural Language Dates: Insert The Current Date and Time - dddd, MMMM Do, YYYY)
-	- Alt + V - Open Video File (Timestamp Notes: Open Modal Complex)
-		- *Opens any video or audio file in its own tab outside of your vault.*
-	- Alt + Y - Paste then Highlight a Web Link then Open Video (Timestamp Notes: Open Video Player)
-		- *Opens a video of any web URL in its own tab which is copy-pasted within any created/pre-existing .md file.*
-	- Alt + B - Timestamp Video or Audio (Timestamp Notes: Insert Timestamp based on videos current play time)
+	- Ctrl + M - Timestamp a Note/Card (Natural Language Dates: Insert The Current Date and Time - dddd, MMMM Do, YYYY hh:mm:ss A)
+	- Alt + V - Open Video File (Media Extended: Open media)
+		- *Opens any video, audio file or web URL in its own tab outside of your vault.* 
+		   Alt + Y - Log on through the Web (Media Extended: Login website) just in case.
+	- Alt + B - Timestamp Video or Audio with a Bullet Point (Media Extended: Take timestamp)
 		- *Timestamp any moment of a video then click to replay like with any bullet point.*
+	- Alt + R - Capture any part of a video (Media Extended: Copy screenshot)
 	- Alt + P - Open PDF from Computer or Web Link (PDF++: Create Dummy File)
 		- *Creates a small-sized file for your PDF stored locally or from a Web Link to save space in your vault.*
 	- Alt + Shift + P - Paste link to any Insight from PDF File (PDF++: Copy link to selection or annotation)
@@ -86,6 +87,7 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + Click - Click on an Image in Hover Editor
 	- Ctrl + P - Open Command Palette
 	- Ctrl + Alt + O - Restart Vault
+	- Ctrl + Alt + Shift + T - Change Theme
 		- [[#^an8nq|^an8nq]]
 		- [[Functional Thinking#^a5hxg]]
 		- [[N-grams#^hdsb1]]
@@ -142,5 +144,5 @@ Once you're ready, follow the steps below and start making note(s) of anything i
 	- Ctrl + Shift + R  - Update Main Folder Note (Map of Content: Update Map of Content)
 		- *Quickly move notes to a folder by searching them in the search tab.*
 		- *Hierarchically ties every note's connection to one another in a decentralized manner.*
-	- Alt + R - Set Current Note as Main Folder Note (Map of Content: Set current Note as Central Note)
+	- Ctrl + Alt + M - Set Current Note as Main Folder Note (Map of Content: Set current Note as Central Note)
 		- [[#^oyt0v|^oyt0v]]

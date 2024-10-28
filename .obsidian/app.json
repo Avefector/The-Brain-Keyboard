@@ -4,5 +4,7 @@
   "showUnsupportedFiles": false,
   "userIgnoreFilters": [],
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "defaultViewMode": "preview",
+  "tabSize": 3
 }

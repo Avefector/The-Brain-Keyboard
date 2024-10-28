@@ -293,6 +293,14 @@
   "enableBibInCanvas": true,
   "copyAsSingleLine": true,
   "removeWhitespaceBetweenCJChars": true,
+  "dummyFileFolderPath": "",
+  "externalURIPatterns": [
+    ".*\\.pdf$",
+    "https://arxiv.org/pdf/.*"
+  ],
+  "modifierToDropExternalPDFToCreateDummy": [
+    "Shift"
+  ],
   "vim": false,
   "vimrcPath": "",
   "vimVisualMotion": true,

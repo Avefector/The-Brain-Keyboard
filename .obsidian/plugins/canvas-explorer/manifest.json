@@ -1,9 +1,9 @@
 {
 	"id": "canvas-explorer",
 	"name": "Canvas Explorer",
-	"version": "1.0.6",
+	"version": "1.1.0",
 	"minAppVersion": "0.15.0",
-	"description": "Canvas Explorer is a plugin that enables users to explore their vault by iteratively adding or ignoring linked notes, ultimately generating a customizable canvas.",
+	"description": "Explore your Obsidian vault by adding or ignoring linked notes, generating a customizable canvas with note sorting and section exclusion.",
 	"author": "Henri Jamet",
 	"authorUrl": "https://www.henri-jamet.com/",
 	"fundingUrl": "https://www.henri-jamet.com/",

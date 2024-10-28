@@ -31,7 +31,9 @@ var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
   canvasFolder: "",
   nodeWidth: 400,
-  nodeHeight: 600
+  nodeHeight: 600,
+  sortProperty: "created_at",
+  excludedSections: ""
 };
 var MyPluginSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
@@ -41,23 +43,31 @@ var MyPluginSettingTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("Dossier Canvas").setDesc("S\xE9lectionnez le dossier o\xF9 enregistrer les canvas").addText((text) => text.setPlaceholder("Exemple: Dossier/Sous-dossier").setValue(this.plugin.settings.canvasFolder).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName("Canvas Folder").setDesc("Select the folder to save canvases").addText((text) => text.setPlaceholder("Example: Folder/Subfolder").setValue(this.plugin.settings.canvasFolder).onChange(async (value) => {
       this.plugin.settings.canvasFolder = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian.Setting(containerEl).setName("Largeur des n\u0153uds").setDesc("Sp\xE9cifiez la largeur des n\u0153uds dans le canvas (en pixels)").addText((text) => text.setPlaceholder("400").setValue(String(this.plugin.settings.nodeWidth)).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName("Node Width").setDesc("Specify the width of nodes in the canvas (in pixels)").addText((text) => text.setPlaceholder("400").setValue(String(this.plugin.settings.nodeWidth)).onChange(async (value) => {
       const numValue = Number(value);
       if (!isNaN(numValue) && numValue > 0) {
         this.plugin.settings.nodeWidth = numValue;
         await this.plugin.saveSettings();
       }
     }));
-    new import_obsidian.Setting(containerEl).setName("Hauteur des n\u0153uds").setDesc("Sp\xE9cifiez la hauteur des n\u0153uds dans le canvas (en pixels)").addText((text) => text.setPlaceholder("600").setValue(String(this.plugin.settings.nodeHeight)).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName("Node Height").setDesc("Specify the height of nodes in the canvas (in pixels)").addText((text) => text.setPlaceholder("600").setValue(String(this.plugin.settings.nodeHeight)).onChange(async (value) => {
       const numValue = Number(value);
       if (!isNaN(numValue) && numValue > 0) {
         this.plugin.settings.nodeHeight = numValue;
         await this.plugin.saveSettings();
       }
+    }));
+    new import_obsidian.Setting(containerEl).setName("Sort Property").setDesc("Specify the frontmatter property to use for sorting notes. If left empty or property not found, file creation date will be used.").addText((text) => text.setPlaceholder("e.g. created_at").setValue(this.plugin.settings.sortProperty).onChange(async (value) => {
+      this.plugin.settings.sortProperty = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("Excluded Sections").setDesc("Specify section titles to exclude from concatenation (comma-separated)").addText((text) => text.setPlaceholder("e.g. Do not include, Private notes").setValue(this.plugin.settings.excludedSections).onChange(async (value) => {
+      this.plugin.settings.excludedSections = value;
+      await this.plugin.saveSettings();
     }));
   }
 };
@@ -71,13 +81,13 @@ var MyPlugin = class extends import_obsidian.Plugin {
     await this.loadSettings();
     this.addSettingTab(new MyPluginSettingTab(this.app, this));
     this.addCommand({
-      id: "ajouter-note",
-      name: "Ajouter Note",
+      id: "add-note",
+      name: "Add Note",
       callback: () => this.addNote()
     });
     this.addCommand({
-      id: "ignorer-note",
-      name: "Ignorer Note",
+      id: "ignore-note",
+      name: "Ignore Note",
       callback: () => this.ignoreNote()
     });
   }
@@ -109,7 +119,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
         }
       }
     }
-    new import_obsidian.Notice(`Il reste ${this.stack.length} notes \xE0 traiter.`);
+    new import_obsidian.Notice(`${this.stack.length} notes left to process.`);
     this.processNextNote();
   }
   async discardNote(file) {
@@ -129,10 +139,13 @@ var MyPlugin = class extends import_obsidian.Plugin {
         }
       }
     }
-    for (const backlink of Object.keys(backlinks.data)) {
-      const backlinkFile = this.app.vault.getAbstractFileByPath(backlink);
-      if (backlinkFile instanceof import_obsidian.TFile) {
-        linkedFiles.push(backlinkFile);
+    if (backlinks && backlinks.data) {
+      const backlinkData = backlinks.data;
+      for (const backlinkPath of backlinkData.keys()) {
+        const backlinkFile = this.app.vault.getAbstractFileByPath(backlinkPath);
+        if (backlinkFile instanceof import_obsidian.TFile) {
+          linkedFiles.push(backlinkFile);
+        }
       }
     }
     return linkedFiles;
@@ -157,7 +170,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
     });
   }
   async createAndDisplayCanvas(fileName, leaf) {
-    const canvasContent = this.generateCanvasContent();
+    const canvasContent = await this.generateCanvasContent();
     const fullFileName = `${fileName}.canvas`;
     let filePath = fullFileName;
     if (this.settings.canvasFolder) {
@@ -167,7 +180,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
         try {
           await this.app.vault.adapter.mkdir(this.settings.canvasFolder);
         } catch (error) {
-          new import_obsidian.Notice(`Erreur lors de la cr\xE9ation du dossier : ${error.message}`);
+          new import_obsidian.Notice(`Error creating folder: ${error.message}`);
           return;
         }
       }
@@ -176,10 +189,18 @@ var MyPlugin = class extends import_obsidian.Plugin {
       const canvasFile = await this.app.vault.create(filePath, canvasContent);
       await leaf.openFile(canvasFile);
     } catch (error) {
-      new import_obsidian.Notice(`Erreur lors de la cr\xE9ation du canvas : ${error.message}`);
+      new import_obsidian.Notice(`Error creating canvas: ${error.message}`);
     }
   }
-  generateCanvasContent() {
+  async readFileContent(file) {
+    try {
+      return await this.app.vault.read(file);
+    } catch (error) {
+      console.error(`Erreur lors de la lecture du fichier ${file.path}:`, error);
+      return "";
+    }
+  }
+  async generateCanvasContent() {
     const nodes = [];
     const edges = [];
     const noteCount = this.preservedNotes.length;
@@ -188,9 +209,65 @@ var MyPlugin = class extends import_obsidian.Plugin {
     const nodeHeight = this.settings.nodeHeight;
     const spacingX = 40;
     const spacingY = 40;
-    this.preservedNotes.forEach((file, index) => {
+    const connectionCounts = /* @__PURE__ */ new Map();
+    for (const file of this.preservedNotes) {
+      const linkedFiles = await this.getLinksAndBacklinks(file);
+      connectionCounts.set(file, linkedFiles.length);
+    }
+    const sortedNotes = this.preservedNotes.sort((a, b) => {
+      const valueA = this.getPropertyValue(a, this.settings.sortProperty);
+      const valueB = this.getPropertyValue(b, this.settings.sortProperty);
+      return valueA < valueB ? -1 : valueA > valueB ? 1 : 0;
+    });
+    const notesByConnections = [...this.preservedNotes].sort(
+      (a, b) => (connectionCounts.get(b) || 0) - (connectionCounts.get(a) || 0)
+    );
+    const colors = ["#FF0000", "#FFA500", "#FFFF00", "#8A2BE2", "#0000FF"];
+    const getColorForNote = (file) => {
+      const index = notesByConnections.indexOf(file);
+      const percentile = index / notesByConnections.length;
+      const colorIndex = Math.min(Math.floor(percentile * 5), 4);
+      return colors[colorIndex];
+    };
+    const excludedSections = this.settings.excludedSections.split(",").map((section) => section.trim()).filter((section) => section.length > 0);
+    const excludeSections = (content) => {
+      const lines = content.split("\n");
+      let result = "";
+      let excluding = false;
+      let currentLevel = 0;
+      for (const line of lines) {
+        const match = line.match(/^(#{1,6})\s+(.+)$/);
+        if (match) {
+          const level = match[1].length;
+          const title = match[2];
+          if (excludedSections.includes(title)) {
+            excluding = true;
+            currentLevel = level;
+          } else if (level <= currentLevel) {
+            excluding = false;
+          }
+        }
+        if (!excluding) {
+          result += line + "\n";
+        }
+      }
+      return result.trim();
+    };
+    let concatenatedContent = "";
+    for (const file of sortedNotes) {
+      let content = await this.readFileContent(file);
+      if (excludedSections.length > 0) {
+        content = excludeSections(content);
+      }
+      concatenatedContent += `--- ${file.name} ---
+${content}
+
+`;
+    }
+    sortedNotes.forEach((file, index) => {
       const x = index % columns * (nodeWidth + spacingX);
       const y = Math.floor(index / columns) * (nodeHeight + spacingY);
+      const color = getColorForNote(file);
       nodes.push(`
         {
             "id": "node-${index}",
@@ -199,13 +276,51 @@ var MyPlugin = class extends import_obsidian.Plugin {
             "width": ${nodeWidth},
             "height": ${nodeHeight},
             "type": "file",
-            "file": "${file.path}"
+            "file": "${file.path}",
+            "color": "${color}"
         }`);
     });
+    const concatenatedNodeX = (columns + 1) * (nodeWidth + spacingX);
+    const concatenatedNodeY = 0;
+    const concatenatedNodeWidth = nodeWidth * 2 + spacingX;
+    const concatenatedNodeHeight = nodeHeight * 2 + spacingY;
+    nodes.push(`
+      {
+        "id": "node-concatenated",
+        "x": ${concatenatedNodeX},
+        "y": ${concatenatedNodeY},
+        "width": ${concatenatedNodeWidth},
+        "height": ${concatenatedNodeHeight},
+        "type": "text",
+        "text": ${JSON.stringify(concatenatedContent)},
+        "color": "#00FF00"
+      }`);
     return `{
     "nodes":[${nodes.join(",")}],
     "edges":[${edges.join(",")}]
 }`;
+  }
+  /**
+   * Get the creation date of a file from its frontmatter.
+   * @param {TFile} file - The file to get the creation date from.
+   * @return {Date} The creation date of the file.
+   */
+  getCreationDate(file) {
+    var _a;
+    const frontmatter = (_a = this.app.metadataCache.getFileCache(file)) == null ? void 0 : _a.frontmatter;
+    const createdAt = frontmatter == null ? void 0 : frontmatter.created_at;
+    return createdAt ? new Date(createdAt) : new Date(0);
+  }
+  /**
+   * Get the value of a specified property from a file's frontmatter or its creation date.
+   * @param {TFile} file - The file to get the property from.
+   * @param {string} property - The name of the property to retrieve.
+   * @return {any} The value of the property, or the file's creation date if not found.
+   */
+  getPropertyValue(file, property) {
+    var _a, _b;
+    const frontmatter = (_a = this.app.metadataCache.getFileCache(file)) == null ? void 0 : _a.frontmatter;
+    return (_b = frontmatter == null ? void 0 : frontmatter[property]) != null ? _b : file.stat.ctime;
   }
   resetPlugin() {
     this.stack = [];
@@ -256,3 +371,6 @@ var FileNameModal = class extends import_obsidian.Modal {
     }
   }
 };
+
+
+/* nosourcemap */

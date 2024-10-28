@@ -66,15 +66,6 @@
       "key": "C"
     }
   ],
-  "editor:toggle-bullet-list": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "B"
-    }
-  ],
   "obsidian-related-notes-finder:show-possible-links": [
     {
       "modifiers": [
@@ -463,9 +454,10 @@
   "map-of-content:open-note-as-central-note": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod"
       ],
-      "key": "R"
+      "key": "M"
     }
   ],
   "editor:toggle-bold": [],
@@ -670,7 +662,15 @@
       "key": "E"
     }
   ],
-  "obsidian-timestamp-notes:open-sample-modal-complex": [
+  "media-extended:take-timestamp": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "media-extended:open-media-switcher": [
     {
       "modifiers": [
         "Alt"
@@ -678,7 +678,15 @@
       "key": "V"
     }
   ],
-  "obsidian-timestamp-notes:trigger-player": [
+  "media-extended:copy-screenshot": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ],
+  "media-extended:login": [
     {
       "modifiers": [
         "Alt"
@@ -686,12 +694,50 @@
       "key": "Y"
     }
   ],
-  "obsidian-timestamp-notes:timestamp-insert": [
+  "theme:switch": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod",
+        "Shift"
       ],
-      "key": "B"
+      "key": "T"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "editor:focus-top": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:focus-bottom": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowDown"
     }
   ]
 }
