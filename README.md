@@ -2,7 +2,7 @@
 
 ## The ultimate [Obsidian](https://obsidian.md/) PKM system built for Multipotentialites!
 
-![2024-October-6-2024-ave-vault](https://github.com/user-attachments/assets/21196262-4039-4e38-9493-249140ffe418)
+![ave-pkm-system-oct-27-2024](https://github.com/user-attachments/assets/0c009d3d-ddf9-43e4-aff1-bb91eac19bf3)
 
 ### Video Showcase here: 
 1. https://www.youtube.com/watch?v=y1dbwSbXggg
