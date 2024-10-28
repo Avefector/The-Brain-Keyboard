@@ -39,12 +39,12 @@ My approach to learning the world around us.
 	- Merges your insights together by removing or adding Bullet Points in case you have too many sub-bullet points.
 - PDF++: Create dummy file
 	- Creates a file for your PDF stored locally or from a Web Link at a small size to save space in your vault.
-- Open Video File (Media Extended: Open media)
+- Media Extended: Open media
 	- Opens any video, audio file or web URL in its own tab outside of your vault.
-- Log on through the Web (Media Extended: Login website) just in case.
-- Timestamp Video or Audio with a Bullet Point (Media Extended: Take timestamp)
+	- Log on through the Web (Media Extended: Login website) just in case.
+- Media Extended: Take timestamp (Timestamp Video or Audio with a Bullet Point)
 	- Timestamp any moment of a video then click to replay like with any bullet point.
-Capture any part of a video (Media Extended: Copy screenshot)
+- Media Extended: Copy screenshot (Capture any part of a video)
 - ## Links
 - Carry-Forward: Copy link to line (Default Link Text)
 	- Create and carry a Block ID's link from one bullet point to another anywhere within or outside notes.
