@@ -39,12 +39,12 @@ My approach to learning the world around us.
 	- Merges your insights together by removing or adding Bullet Points in case you have too many sub-bullet points.
 - PDF++: Create dummy file
 	- Creates a file for your PDF stored locally or from a Web Link at a small size to save space in your vault.
-- Timestamp Notes: Open Sample Model (complex)
-	- Opens any video or audio file in its own tab outside of your vault.
-- Timestamp Notes: open video player copy video url and use hotkey
-	- Opens a video of any web URL in its own tab which is copy-pasted within any created/pre-existing .md file.
-- Timestamp Notes: Insert timestamp based on videos current play time
+- Open Video File (Media Extended: Open media)
+	- Opens any video, audio file or web URL in its own tab outside of your vault.
+- Log on through the Web (Media Extended: Login website) just in case.
+- Timestamp Video or Audio with a Bullet Point (Media Extended: Take timestamp)
 	- Timestamp any moment of a video then click to replay like with any bullet point.
+Capture any part of a video (Media Extended: Copy screenshot)
 - ## Links
 - Carry-Forward: Copy link to line (Default Link Text)
 	- Create and carry a Block ID's link from one bullet point to another anywhere within or outside notes.
